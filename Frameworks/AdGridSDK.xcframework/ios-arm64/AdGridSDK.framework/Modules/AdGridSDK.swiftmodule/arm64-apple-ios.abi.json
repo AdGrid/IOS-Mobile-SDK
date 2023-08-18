@@ -1,0 +1,4403 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdManagerSupport",
+        "printedName": "AdManagerSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAlreadyInit",
+            "printedName": "isAlreadyInit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(cpy)isAlreadyInit",
+            "mangledName": "$s9AdGridSDK0A14ManagerSupportC13isAlreadyInitSbvpZ",
+            "moduleName": "AdGridSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(cm)isAlreadyInit",
+                "mangledName": "$s9AdGridSDK0A14ManagerSupportC13isAlreadyInitSbvgZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(cm)setIsAlreadyInit:",
+                "mangledName": "$s9AdGridSDK0A14ManagerSupportC13isAlreadyInitSbvsZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A14ManagerSupportC13isAlreadyInitSbvMZ",
+                "mangledName": "$s9AdGridSDK0A14ManagerSupportC13isAlreadyInitSbvMZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(initialTestDeviceIds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdManagerSupport",
+                "printedName": "AdGridSDK.AdManagerSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(im)initWithInitialTestDeviceIds:",
+            "mangledName": "$s9AdGridSDK0A14ManagerSupportC20initialTestDeviceIdsACSaySSGSg_tcfc",
+            "moduleName": "AdGridSDK",
+            "declAttributes": [
+              "Required",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdManagerSupport",
+                "printedName": "AdGridSDK.AdManagerSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(im)init",
+            "mangledName": "$s9AdGridSDK0A14ManagerSupportCACycfc",
+            "moduleName": "AdGridSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport",
+        "mangledName": "$s9AdGridSDK0A14ManagerSupportC",
+        "moduleName": "AdGridSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdGridSdk",
+        "printedName": "AdGridSdk",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedLogger",
+            "printedName": "sharedLogger",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ObjectiveC.NSObject?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ObjectiveC.NSObject?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSObject",
+                        "printedName": "ObjectiveC.NSObject",
+                        "usr": "c:objc(cs)NSObject"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(cpy)sharedLogger",
+            "mangledName": "$s9AdGridSDK0aB3SdkC12sharedLoggeryySo8NSObjectCSgcvpZ",
+            "moduleName": "AdGridSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ObjectiveC.NSObject?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ObjectiveC.NSObject?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSObject",
+                            "printedName": "ObjectiveC.NSObject",
+                            "usr": "c:objc(cs)NSObject"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(cm)sharedLogger",
+                "mangledName": "$s9AdGridSDK0aB3SdkC12sharedLoggeryySo8NSObjectCSgcvgZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ObjectiveC.NSObject?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ObjectiveC.NSObject?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSObject",
+                            "printedName": "ObjectiveC.NSObject",
+                            "usr": "c:objc(cs)NSObject"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(cm)setSharedLogger:",
+                "mangledName": "$s9AdGridSDK0aB3SdkC12sharedLoggeryySo8NSObjectCSgcvsZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0aB3SdkC12sharedLoggeryySo8NSObjectCSgcvMZ",
+                "mangledName": "$s9AdGridSDK0aB3SdkC12sharedLoggeryySo8NSObjectCSgcvMZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "googleAdManagerOriginalApiSupport",
+            "printedName": "googleAdManagerOriginalApiSupport",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdManagerOriginalApiSupport",
+                "printedName": "AdGridSDK.AdManagerOriginalApiSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(py)googleAdManagerOriginalApiSupport",
+            "mangledName": "$s9AdGridSDK0aB3SdkC06googleA25ManagerOriginalApiSupportAA0afghI0Cvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdManagerOriginalApiSupport",
+                    "printedName": "AdGridSDK.AdManagerOriginalApiSupport",
+                    "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(im)googleAdManagerOriginalApiSupport",
+                "mangledName": "$s9AdGridSDK0aB3SdkC06googleA25ManagerOriginalApiSupportAA0afghI0Cvg",
+                "moduleName": "AdGridSDK",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accountId:initialGADTestDeviceIds:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdGridSdk",
+                "printedName": "AdGridSDK.AdGridSdk",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PrebidMobile.PrebidInitializationStatus, Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrebidMobile.PrebidInitializationStatus, Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(PrebidMobile.PrebidInitializationStatus, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrebidInitializationStatus",
+                            "printedName": "PrebidMobile.PrebidInitializationStatus",
+                            "usr": "c:@M@PrebidMobile@E@PrebidInitializationStatus"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(im)initWithAccountId:initialGADTestDeviceIds::",
+            "mangledName": "$s9AdGridSDK0aB3SdkC9accountId23initialGADTestDeviceIds_ACSS_SaySSGSgy12PrebidMobile0K20InitializationStatusO_s5Error_pSgtcSgtcfc",
+            "moduleName": "AdGridSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdGridSdk",
+                "printedName": "AdGridSDK.AdGridSdk",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(im)init",
+            "mangledName": "$s9AdGridSDK0aB3SdkCACycfc",
+            "moduleName": "AdGridSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk",
+        "mangledName": "$s9AdGridSDK0aB3SdkC",
+        "moduleName": "AdGridSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdManagerRenderingApiSupport",
+        "printedName": "AdManagerRenderingApiSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nativeAdLoaders",
+            "printedName": "nativeAdLoaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoader",
+                    "printedName": "GoogleMobileAds.GADAdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdDelegate",
+                    "printedName": "PrebidMobile.NativeAdDelegate",
+                    "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(py)nativeAdLoaders",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdDelegate",
+                        "printedName": "PrebidMobile.NativeAdDelegate",
+                        "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)nativeAdLoaders",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdDelegate",
+                        "printedName": "PrebidMobile.NativeAdDelegate",
+                        "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)setNativeAdLoaders:",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvM",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeAdCustomFormatIDs",
+            "printedName": "nativeAdCustomFormatIDs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoader",
+                    "printedName": "GoogleMobileAds.GADAdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(py)nativeAdCustomFormatIDs",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)nativeAdCustomFormatIDs",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)setNativeAdCustomFormatIDs:",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvM",
+                "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(initialTestDeviceIds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdManagerRenderingApiSupport",
+                "printedName": "AdGridSDK.AdManagerRenderingApiSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)initWithInitialTestDeviceIds:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC20initialTestDeviceIdsACSaySSGSg_tcfc",
+            "moduleName": "AdGridSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithInitialTestDeviceIds:",
+            "declAttributes": [
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showBannerView",
+            "printedName": "showBannerView(on:adUnitId:prebidConfigId:bannerView:adSize:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerViewDelegate",
+                "printedName": "PrebidMobile.BannerViewDelegate",
+                "usr": "c:@M@PrebidMobile@objc(pl)BannerViewDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showBannerViewOn:adUnitId:prebidConfigId:bannerView:adSize:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC14showBannerView2on8adUnitId012prebidConfigN006bannerJ00L4Size8delegateySo16UIViewControllerC_S2SSo0T0CSo6CGSizeV12PrebidMobile0iJ8Delegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterestialBannerView",
+            "printedName": "showInterestialBannerView(adUnitId:prebidConfigId:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InterstitialAdUnitDelegate",
+                "printedName": "PrebidMobile.InterstitialAdUnitDelegate",
+                "usr": "c:@M@PrebidMobile@objc(pl)InterstitialAdUnitDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showInterestialBannerViewWithAdUnitId:prebidConfigId:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC25showInterestialBannerView8adUnitId012prebidConfigN08delegateySS_SS12PrebidMobile012InterstitialaM8Delegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterestialVideoView",
+            "printedName": "showInterestialVideoView(on:adUnitId:prebidConfigId:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InterstitialAdUnitDelegate",
+                "printedName": "PrebidMobile.InterstitialAdUnitDelegate",
+                "usr": "c:@M@PrebidMobile@objc(pl)InterstitialAdUnitDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showInterestialVideoViewOn:adUnitId:prebidConfigId:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC24showInterestialVideoView2on8adUnitId012prebidConfigO08delegateySo16UIViewControllerC_S2S12PrebidMobile012InterstitialaN8Delegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNativeView",
+            "printedName": "showNativeView(on:adUnitId:prebidConfigId:nativeRequestAssets:eventTrackers:contextType:placementType:contextSubType:adTypes:options:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrebidMobile.NativeAsset]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAsset",
+                    "printedName": "PrebidMobile.NativeAsset",
+                    "usr": "c:@M@PrebidMobile@objc(cs)NativeAsset"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrebidMobile.NativeEventTracker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeEventTracker",
+                    "printedName": "PrebidMobile.NativeEventTracker",
+                    "usr": "c:@M@PrebidMobile@objc(cs)NativeEventTracker"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContextType",
+                "printedName": "PrebidMobile.ContextType",
+                "usr": "c:@M@PrebidMobile@objc(cs)ContextType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementType",
+                "printedName": "PrebidMobile.PlacementType",
+                "usr": "c:@M@PrebidMobile@objc(cs)PlacementType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContextSubType",
+                "printedName": "PrebidMobile.ContextSubType",
+                "usr": "c:@M@PrebidMobile@objc(cs)ContextSubType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GoogleMobileAds.GADAdLoaderAdType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoaderAdType",
+                    "printedName": "GoogleMobileAds.GADAdLoaderAdType",
+                    "usr": "c:GADAdLoaderAdTypes.h@T@GADAdLoaderAdType"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[GoogleMobileAds.GADAdLoaderOptions]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[GoogleMobileAds.GADAdLoaderOptions]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoaderOptions",
+                        "printedName": "GoogleMobileAds.GADAdLoaderOptions",
+                        "usr": "c:objc(cs)GADAdLoaderOptions"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADCustomNativeAdLoaderDelegate",
+                "printedName": "GoogleMobileAds.GADCustomNativeAdLoaderDelegate",
+                "usr": "c:objc(pl)GADCustomNativeAdLoaderDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showNativeViewOn:adUnitId:prebidConfigId:nativeRequestAssets:eventTrackers:contextType:placementType:contextSubType:adTypes:options:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC14showNativeView2on8adUnitId012prebidConfigN019nativeRequestAssets13eventTrackers11contextType09placementW00v3SubW00L5Types7options8delegateySo16UIViewControllerC_S2SSay12PrebidMobile0I5AssetCGSayAR0I12EventTrackerCGAR07ContextW0CAR09PlacementW0CAR07ContextyW0CSaySo011GADAdLoaderaW0aGSaySo18GADAdLoaderOptionsCGSgSo09GADCustomiA14LoaderDelegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showVideoRewardedView",
+            "printedName": "showVideoRewardedView(on:adUnitId:prebidConfigId:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardedAdUnitDelegate",
+                "printedName": "PrebidMobile.RewardedAdUnitDelegate",
+                "usr": "c:@M@PrebidMobile@objc(pl)RewardedAdUnitDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showVideoRewardedViewOn:adUnitId:prebidConfigId:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC21showVideoRewardedView2on8adUnitId012prebidConfigO08delegateySo16UIViewControllerC_S2S12PrebidMobile0jaN8Delegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showVideoBannerView",
+            "printedName": "showVideoBannerView(on:adUnitId:prebidConfigId:bannerView:adSize:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerViewDelegate",
+                "printedName": "PrebidMobile.BannerViewDelegate",
+                "usr": "c:@M@PrebidMobile@objc(pl)BannerViewDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showVideoBannerViewOn:adUnitId:prebidConfigId:bannerView:adSize:delegate:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC19showVideoBannerView2on8adUnitId012prebidConfigO006bannerK00M4Size8delegateySo16UIViewControllerC_S2SSo0U0CSo6CGSizeV12PrebidMobile0jK8Delegate_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdGridSDK@objc(cs)AdManagerRenderingApiSupport",
+        "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC",
+        "moduleName": "AdGridSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AdGridSDK.AdManagerSupport",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdManagerOriginalApiSupport",
+        "printedName": "AdManagerOriginalApiSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nativeAdLoaders",
+            "printedName": "nativeAdLoaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoader",
+                    "printedName": "GoogleMobileAds.GADAdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdDelegate",
+                    "printedName": "PrebidMobile.NativeAdDelegate",
+                    "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(py)nativeAdLoaders",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdDelegate",
+                        "printedName": "PrebidMobile.NativeAdDelegate",
+                        "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)nativeAdLoaders",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : PrebidMobile.NativeAdDelegate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdDelegate",
+                        "printedName": "PrebidMobile.NativeAdDelegate",
+                        "usr": "c:@M@PrebidMobile@objc(pl)NativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)setNativeAdLoaders:",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvM",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA7LoadersSDySo11GADAdLoaderC12PrebidMobile06NativeA8Delegate_pGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeAdCustomFormatIDs",
+            "printedName": "nativeAdCustomFormatIDs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoader",
+                    "printedName": "GoogleMobileAds.GADAdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(py)nativeAdCustomFormatIDs",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)nativeAdCustomFormatIDs",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)setNativeAdCustomFormatIDs:",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvM",
+                "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC06nativeA15CustomFormatIDsSDySo11GADAdLoaderCSaySSGGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(initialTestDeviceIds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdManagerOriginalApiSupport",
+                "printedName": "AdGridSDK.AdManagerOriginalApiSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)initWithInitialTestDeviceIds:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC20initialTestDeviceIdsACSaySSGSg_tcfc",
+            "moduleName": "AdGridSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithInitialTestDeviceIds:",
+            "declAttributes": [
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "displayAdView",
+            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4SizeySo16UIViewControllerC_S2SSo0R0CSo6CGSizeVtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidReceiveAd",
+            "printedName": "bannerViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)bannerViewDidReceiveAd:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC020bannerViewDidReceiveA0yySo09GADBannerI0CF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "bannerViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerView",
+            "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)bannerView:didFailToReceiveAdWithError:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC10bannerView_016didFailToReceiveA9WithErrorySo09GADBannerI0C_s0O0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "bannerView:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customNativeAdFormatIDs",
+            "printedName": "customNativeAdFormatIDs(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)customNativeAdFormatIDsForAdLoader:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC012customNativeA9FormatIDs3forSaySSGSo11GADAdLoaderC_tF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "customNativeAdFormatIDsForAdLoader:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADCustomNativeAd",
+                "printedName": "GoogleMobileAds.GADCustomNativeAd",
+                "usr": "c:objc(cs)GADCustomNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)adLoader:didReceiveCustomNativeAd:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC8adLoader_10didReceiveySo05GADAdI0C_So015GADCustomNativeA0CtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "adLoader:didReceiveCustomNativeAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)adLoader:didFailToReceiveAdWithError:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC8adLoader_016didFailToReceiveA9WithErrorySo05GADAdI0C_s0O0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "adLoader:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFulln10PresentingA0_p_s0Q0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdGridSDK@objc(cs)AdManagerOriginalApiSupport",
+        "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC",
+        "moduleName": "AdGridSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AdGridSDK.AdManagerSupport",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileGAMEventHandlers",
+        "printedName": "PrebidMobileGAMEventHandlers",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdMobSupport",
+        "printedName": "AdMobSupport",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(initialTestDeviceIds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdMobSupport",
+                "printedName": "AdGridSDK.AdMobSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)initWithInitialTestDeviceIds:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC20initialTestDeviceIdsACSaySSGSg_tcfc",
+            "moduleName": "AdGridSDK",
+            "declAttributes": [
+              "Required",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "nativeAdLoaders",
+            "printedName": "nativeAdLoaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADAdLoader : (GoogleMobileAds.GADNativeAd) -> ()]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoader",
+                    "printedName": "GoogleMobileAds.GADAdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GoogleMobileAds.GADNativeAd) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADNativeAd",
+                        "printedName": "GoogleMobileAds.GADNativeAd",
+                        "usr": "c:objc(cs)GADNativeAd"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvp",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : (GoogleMobileAds.GADNativeAd) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADNativeAd) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADNativeAd",
+                            "printedName": "GoogleMobileAds.GADNativeAd",
+                            "usr": "c:objc(cs)GADNativeAd"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvg",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADAdLoader : (GoogleMobileAds.GADNativeAd) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoader",
+                        "printedName": "GoogleMobileAds.GADAdLoader",
+                        "usr": "c:objc(cs)GADAdLoader"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADNativeAd) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADNativeAd",
+                            "printedName": "GoogleMobileAds.GADNativeAd",
+                            "usr": "c:objc(cs)GADNativeAd"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvs",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvM",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06nativeA7LoadersSDySo11GADAdLoaderCySo09GADNativeA0CcGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoAdUnits",
+            "printedName": "videoAdUnits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[GoogleMobileAds.GADBannerView : PrebidMobile.MediationBannerAdUnit]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADBannerView",
+                    "printedName": "GoogleMobileAds.GADBannerView",
+                    "usr": "c:objc(cs)GADBannerView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationBannerAdUnit",
+                    "printedName": "PrebidMobile.MediationBannerAdUnit",
+                    "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(py)videoAdUnits",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC05videoA5UnitsSDySo13GADBannerViewC12PrebidMobile015MediationBannerA4UnitCGvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADBannerView : PrebidMobile.MediationBannerAdUnit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADBannerView",
+                        "printedName": "GoogleMobileAds.GADBannerView",
+                        "usr": "c:objc(cs)GADBannerView"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAdUnit",
+                        "printedName": "PrebidMobile.MediationBannerAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)videoAdUnits",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC05videoA5UnitsSDySo13GADBannerViewC12PrebidMobile015MediationBannerA4UnitCGvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[GoogleMobileAds.GADBannerView : PrebidMobile.MediationBannerAdUnit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADBannerView",
+                        "printedName": "GoogleMobileAds.GADBannerView",
+                        "usr": "c:objc(cs)GADBannerView"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAdUnit",
+                        "printedName": "PrebidMobile.MediationBannerAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)setVideoAdUnits:",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC05videoA5UnitsSDySo13GADBannerViewC12PrebidMobile015MediationBannerA4UnitCGvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC05videoA5UnitsSDySo13GADBannerViewC12PrebidMobile015MediationBannerA4UnitCGvM",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC05videoA5UnitsSDySo13GADBannerViewC12PrebidMobile015MediationBannerA4UnitCGvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "admobMediationNativeAdUnit",
+            "printedName": "admobMediationNativeAdUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrebidMobile.MediationNativeAdUnit?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationNativeAdUnit",
+                    "printedName": "PrebidMobile.MediationNativeAdUnit",
+                    "usr": "c:@M@PrebidMobile@objc(cs)MediationNativeAdUnit"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(py)admobMediationNativeAdUnit",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC020admobMediationNativeA4Unit12PrebidMobile0ghaI0CSgvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrebidMobile.MediationNativeAdUnit?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationNativeAdUnit",
+                        "printedName": "PrebidMobile.MediationNativeAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationNativeAdUnit"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)admobMediationNativeAdUnit",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC020admobMediationNativeA4Unit12PrebidMobile0ghaI0CSgvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrebidMobile.MediationNativeAdUnit?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationNativeAdUnit",
+                        "printedName": "PrebidMobile.MediationNativeAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationNativeAdUnit"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)setAdmobMediationNativeAdUnit:",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC020admobMediationNativeA4Unit12PrebidMobile0ghaI0CSgvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC020admobMediationNativeA4Unit12PrebidMobile0ghaI0CSgvM",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC020admobMediationNativeA4Unit12PrebidMobile0ghaI0CSgvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prebidAdMobMediaitonAdUnit",
+            "printedName": "prebidAdMobMediaitonAdUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrebidMobile.MediationBannerAdUnit?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationBannerAdUnit",
+                    "printedName": "PrebidMobile.MediationBannerAdUnit",
+                    "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(py)prebidAdMobMediaitonAdUnit",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC06prebidad9MediaitonA4Unit12PrebidMobile015MediationBanneraH0CSgvp",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrebidMobile.MediationBannerAdUnit?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAdUnit",
+                        "printedName": "PrebidMobile.MediationBannerAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)prebidAdMobMediaitonAdUnit",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06prebidad9MediaitonA4Unit12PrebidMobile015MediationBanneraH0CSgvg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrebidMobile.MediationBannerAdUnit?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAdUnit",
+                        "printedName": "PrebidMobile.MediationBannerAdUnit",
+                        "usr": "c:@M@PrebidMobile@objc(cs)MediationBannerAdUnit"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)setPrebidAdMobMediaitonAdUnit:",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06prebidad9MediaitonA4Unit12PrebidMobile015MediationBanneraH0CSgvs",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A10MobSupportC06prebidad9MediaitonA4Unit12PrebidMobile015MediationBanneraH0CSgvM",
+                "mangledName": "$s9AdGridSDK0A10MobSupportC06prebidad9MediaitonA4Unit12PrebidMobile015MediationBanneraH0CSgvM",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdMobSupport",
+                "printedName": "AdGridSDK.AdMobSupport",
+                "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport(im)init",
+            "mangledName": "$s9AdGridSDK0A10MobSupportCACycfc",
+            "moduleName": "AdGridSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showBannerView",
+            "printedName": "showBannerView(on:adUnitId:prebidConfigId:bannerView:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showBannerViewOn:adUnitId:prebidConfigId:bannerView:adSize:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC14showBannerView2on8adUnitId012prebidConfigL006bannerH00J4SizeySo16UIViewControllerC_S2SSo0Q0CSo6CGSizeVtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterestialView",
+            "printedName": "showInterestialView(on:adUnitId:prebidConfigId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showInterestialViewOn:adUnitId:prebidConfigId:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC19showInterestialView2on8adUnitId012prebidConfigL0ySo16UIViewControllerC_S2StF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFulll10PresentingA0_p_s0O0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showBannerVideoView",
+            "printedName": "showBannerVideoView(on:adUnitId:prebidConfigId:bannerView:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showBannerVideoViewOn:adUnitId:prebidConfigId:bannerView:adSize:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC19showBannerVideoView2on8adUnitId012prebidConfigM006bannerI00K4SizeySo16UIViewControllerC_S2SSo0R0CSo6CGSizeVtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidReceiveAd",
+            "printedName": "bannerViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)bannerViewDidReceiveAd:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC020bannerViewDidReceiveA0yySo09GADBannerG0CF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "bannerViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerView",
+            "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)bannerView:didFailToReceiveAdWithError:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC10bannerView_016didFailToReceiveA9WithErrorySo09GADBannerG0C_s0M0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "bannerView:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterestialVideoView",
+            "printedName": "showInterestialVideoView(on:adUnitId:prebidConfigId:bannerView:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showInterestialVideoViewOn:adUnitId:prebidConfigId:bannerView:adSize:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC24showInterestialVideoView2on8adUnitId012prebidConfigM006bannerI00K4SizeySo16UIViewControllerC_S2SSo0R0CSo6CGSizeVtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNativeView",
+            "printedName": "showNativeView(on:adUnitId:prebidConfigId:nativeRequestAssets:eventTrackers:contextType:placementType:contextSubType:adTypes:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrebidMobile.NativeAsset]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAsset",
+                    "printedName": "PrebidMobile.NativeAsset",
+                    "usr": "c:@M@PrebidMobile@objc(cs)NativeAsset"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrebidMobile.NativeEventTracker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeEventTracker",
+                    "printedName": "PrebidMobile.NativeEventTracker",
+                    "usr": "c:@M@PrebidMobile@objc(cs)NativeEventTracker"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContextType",
+                "printedName": "PrebidMobile.ContextType",
+                "usr": "c:@M@PrebidMobile@objc(cs)ContextType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementType",
+                "printedName": "PrebidMobile.PlacementType",
+                "usr": "c:@M@PrebidMobile@objc(cs)PlacementType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContextSubType",
+                "printedName": "PrebidMobile.ContextSubType",
+                "usr": "c:@M@PrebidMobile@objc(cs)ContextSubType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GoogleMobileAds.GADAdLoaderAdType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdLoaderAdType",
+                    "printedName": "GoogleMobileAds.GADAdLoaderAdType",
+                    "usr": "c:GADAdLoaderAdTypes.h@T@GADAdLoaderAdType"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[GoogleMobileAds.GADAdLoaderOptions]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[GoogleMobileAds.GADAdLoaderOptions]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdLoaderOptions",
+                        "printedName": "GoogleMobileAds.GADAdLoaderOptions",
+                        "usr": "c:objc(cs)GADAdLoaderOptions"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADNativeAd) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADNativeAd",
+                    "printedName": "GoogleMobileAds.GADNativeAd",
+                    "usr": "c:objc(cs)GADNativeAd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showNativeViewOn:adUnitId:prebidConfigId:nativeRequestAssets:eventTrackers:contextType:placementType:contextSubType:adTypes:options:completion:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC14showNativeView2on8adUnitId012prebidConfigL019nativeRequestAssets13eventTrackers11contextType09placementU00t3SubU00J5Types7options10completionySo16UIViewControllerC_S2SSay12PrebidMobile0G5AssetCGSayAR0G12EventTrackerCGAR07ContextU0CAR09PlacementU0CAR07ContextwU0CSaySo011GADAdLoaderaU0aGSaySo18GADAdLoaderOptionsCGSgySo09GADNativeA0CctF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)adLoader:didReceiveNativeAd:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC8adLoader_10didReceiveySo05GADAdG0C_So09GADNativeA0CtF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "adLoader:didReceiveNativeAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)adLoader:didFailToReceiveAdWithError:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC8adLoader_016didFailToReceiveA9WithErrorySo05GADAdG0C_s0M0_ptF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "objc_name": "adLoader:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewardedVideoView",
+            "printedName": "showRewardedVideoView(on:adUnitId:prebidConfigId:bannerView:adSize:userDidEarnRewardHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdMobSupport(im)showRewardedVideoViewOn:adUnitId:prebidConfigId:bannerView:adSize:userDidEarnRewardHandler:",
+            "mangledName": "$s9AdGridSDK0A10MobSupportC21showRewardedVideoView2on8adUnitId012prebidConfigM006bannerI00K4Size24userDidEarnRewardHandlerySo16UIViewControllerC_S2SSo0W0CSo6CGSizeVyyctF",
+            "moduleName": "AdGridSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdGridSDK@objc(cs)AdMobSupport",
+        "mangledName": "$s9AdGridSDK0A10MobSupportC",
+        "moduleName": "AdGridSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobileAdMobAdapters",
+        "printedName": "PrebidMobileAdMobAdapters",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/AdManagerSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/AdManagerSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 16,
+      "value": "\"AdGridSDK.AdManagerSupport\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 45,
+      "value": "\"https:\/\/pbserver.adgrid.io\/openrtb2\/auction\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 35,
+      "value": "\"https:\/\/pbserver.adgrid.io\/status\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 116,
+      "length": 9,
+      "value": "\"AdGridSDK.AdGridSdk\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdMob\/AdMobSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 12,
+      "value": "\"AdGridSDK.AdMobSupport\""
+    }
+  ]
+}

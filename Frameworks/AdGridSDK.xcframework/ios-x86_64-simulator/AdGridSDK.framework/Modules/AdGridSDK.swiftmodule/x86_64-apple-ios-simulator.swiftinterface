@@ -1,0 +1,88 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdGridSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AdGridSDK
+import Foundation
+import GoogleMobileAds
+import PrebidMobile
+import PrebidMobileAdMobAdapters
+import PrebidMobileGAMEventHandlers
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_hasMissingDesignatedInitializers @objcMembers public class AdManagerSupport : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate, GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc deinit
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showBannerView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, delegate: any PrebidMobile.BannerViewDelegate)
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showInterestialBannerView(adUnitId: Swift.String, prebidConfigId: Swift.String, delegate: any PrebidMobile.InterstitialAdUnitDelegate)
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showInterestialVideoView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, delegate: any PrebidMobile.InterstitialAdUnitDelegate)
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showBannerView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize)
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showNativeView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, nativeRequestAssets: [PrebidMobile.NativeAsset], eventTrackers: [PrebidMobile.NativeEventTracker], contextType: PrebidMobile.ContextType, placementType: PrebidMobile.PlacementType, contextSubType: PrebidMobile.ContextSubType, adTypes: [GoogleMobileAds.GADAdLoaderAdType], options: [GoogleMobileAds.GADAdLoaderOptions]?, delegate: any GoogleMobileAds.GADCustomNativeAdLoaderDelegate)
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showInterestialView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String)
+  @objc dynamic public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+}
+@objc @objcMembers public class AdGridSdk : ObjectiveC.NSObject {
+  @objc public static var sharedLogger: (_ logObj: ObjectiveC.NSObject?) -> ()
+  @objc public var googleAdManagerOriginalApiSupport: AdGridSDK.AdManagerOriginalApiSupport {
+    @objc get
+  }
+  @objc public init(accountId: Swift.String, initialGADTestDeviceIds: Swift.Array<Swift.String>?, _ completion: PrebidMobile.PrebidInitializationCallback? = nil)
+  @objc deinit
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showBannerVideoView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize)
+  @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension AdGridSDK.AdManagerOriginalApiSupport {
+  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize)
+  @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showInterestialVideoView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdManagerRenderingApiSupport : AdGridSDK.AdManagerSupport {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdManagerOriginalApiSupport : AdGridSDK.AdManagerSupport, GoogleMobileAds.GADAdLoaderDelegate, GoogleMobileAds.GADCustomNativeAdLoaderDelegate {
+  @objc deinit
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showVideoRewardedView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, delegate: any PrebidMobile.RewardedAdUnitDelegate)
+}
+extension AdGridSDK.AdManagerOriginalApiSupport {
+  @objc dynamic public func customNativeAdFormatIDs(for adLoader: GoogleMobileAds.GADAdLoader) -> [Swift.String]
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive customNativeAd: GoogleMobileAds.GADCustomNativeAd)
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showNativeView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, nativeRequestAssets: [PrebidMobile.NativeAsset], eventTrackers: [PrebidMobile.NativeEventTracker], contextType: PrebidMobile.ContextType, placementType: PrebidMobile.PlacementType, contextSubType: PrebidMobile.ContextSubType, adTypes: [GoogleMobileAds.GADAdLoaderAdType], options: [GoogleMobileAds.GADAdLoaderOptions]?, completion: @escaping (GoogleMobileAds.GADNativeAd) -> ())
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension AdGridSDK.AdManagerOriginalApiSupport {
+  @objc dynamic public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+}
+extension AdGridSDK.AdManagerRenderingApiSupport {
+  @objc dynamic public func showVideoBannerView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, delegate: any PrebidMobile.BannerViewDelegate)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class AdMobSupport : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate, GoogleMobileAds.GADFullScreenContentDelegate, GoogleMobileAds.GADNativeAdLoaderDelegate {
+  @objc deinit
+}
+extension AdGridSDK.AdMobSupport {
+  @objc dynamic public func showRewardedVideoView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, userDidEarnRewardHandler: @escaping GoogleMobileAds.GADUserDidEarnRewardHandler)
+}
