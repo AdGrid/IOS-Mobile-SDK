@@ -1,2 +1,3 @@
-# Mobile-SDK
-AdGrid Mobile SDK for Android and IOS.
+# AdGridIOSMobileSDKRepo
+
+A description of this package.
