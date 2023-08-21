@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mobile-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AdGrid/Mobile-SDK",
+      "state" : {
+        "revision" : "332058c7a6dc315c254740ea7b3cf58064e10613",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
