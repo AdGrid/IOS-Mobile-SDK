@@ -12,7 +12,7 @@ import AdGridSDK
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    private let prebidAccountId = "vitalii_overchuk";
+    private let prebidAccountId = "adgrid_mobile_test_tagid";
     
     public static var adGridSdk: AdGridSdk?
 
