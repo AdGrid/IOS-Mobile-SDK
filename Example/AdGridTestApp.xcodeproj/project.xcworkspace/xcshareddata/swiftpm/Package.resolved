@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AdGrid/IOS-Mobile-SDK.git",
       "state" : {
-        "revision" : "332058c7a6dc315c254740ea7b3cf58064e10613",
-        "version" : "1.0.0"
+        "revision" : "9cf3b7b8de3cf880316d7a8510031373343c68bc",
+        "version" : "1.0.2"
       }
     }
   ],
