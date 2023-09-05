@@ -16,7 +16,7 @@ import _StringProcessing
   @objc deinit
 }
 extension AdGridSDK.AdManagerRenderingApiSupport {
-  @objc dynamic public func showBannerView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, delegate: any PrebidMobile.BannerViewDelegate)
+  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, delegate: any PrebidMobile.BannerViewDelegate, extras: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000)
 }
 extension AdGridSDK.AdManagerRenderingApiSupport {
   @objc dynamic public func showInterestialBannerView(adUnitId: Swift.String, prebidConfigId: Swift.String, delegate: any PrebidMobile.InterstitialAdUnitDelegate)
@@ -48,7 +48,7 @@ extension AdGridSDK.AdMobSupport {
   @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
 }
 extension AdGridSDK.AdManagerOriginalApiSupport {
-  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize)
+  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, extras: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000)
   @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
 }

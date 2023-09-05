@@ -1053,8 +1053,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "showBannerView",
-            "printedName": "showBannerView(on:adUnitId:prebidConfigId:bannerView:adSize:delegate:)",
+            "name": "displayAdView",
+            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:delegate:extras:adRefreshRateInMillis:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1096,11 +1096,47 @@
                 "name": "BannerViewDelegate",
                 "printedName": "PrebidMobile.BannerViewDelegate",
                 "usr": "c:@M@PrebidMobile@objc(pl)BannerViewDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)showBannerViewOn:adUnitId:prebidConfigId:bannerView:adSize:delegate:",
-            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC14showBannerView2on8adUnitId012prebidConfigN006bannerJ00L4Size8delegateySo16UIViewControllerC_S2SSo0T0CSo6CGSizeV12PrebidMobile0iJ8Delegate_ptF",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerRenderingApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:delegate:extras:adRefreshRateInMillis:",
+            "mangledName": "$s9AdGridSDK0A26ManagerRenderingApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4Size8delegate6extras0K19RefreshRateInMillisySo16UIViewControllerC_S2SSo0X0CSo6CGSizeV12PrebidMobile06BannerI8Delegate_pSDyS2SGSgSdtF",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Dynamic",
@@ -1548,7 +1584,7 @@
           {
             "kind": "Function",
             "name": "displayAdView",
-            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:)",
+            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:extras:adRefreshRateInMillis:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1584,11 +1620,47 @@
                 "name": "CGSize",
                 "printedName": "CoreFoundation.CGSize",
                 "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:",
-            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4SizeySo16UIViewControllerC_S2SSo0R0CSo6CGSizeVtF",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:extras:adRefreshRateInMillis:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4Size6extras0K19RefreshRateInMillisySo16UIViewControllerC_S2SSo0W0CSo6CGSizeVSDyS2SGSgSdtF",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Dynamic",
@@ -2966,6 +3038,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/RenderingAPI\/AdManagerRenderingApiSupport+BannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 6,
+      "value": "30000"
+    },
+    {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdMob\/AdMobSupport+BannerView.swift",
       "kind": "StringLiteral",
       "offset": 1365,
@@ -3122,49 +3201,49 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 5,
+      "offset": 511,
+      "length": 6,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1306,
+      "offset": 1595,
       "length": 50,
       "value": "\"Prebid demand fetch for GAM \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1644,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1835,
+      "offset": 2124,
       "length": 68,
       "value": "\"Error occuring during searching for Prebid creative size: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 2191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2330,
       "length": 49,
       "value": "\"GAM did fail to receive ad with error: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2089,
+      "offset": 2378,
       "length": 2,
       "value": "\"\""
     },

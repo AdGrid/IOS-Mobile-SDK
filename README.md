@@ -11,7 +11,7 @@ Please follow the instructions below for integration of the SDK into your mobile
 1.  **Add AdGridSDK reference to your project.**
 	* Add our library
 		+  Manually add AdGridSDK.xcframework into your project and add all dependencies
-		+  Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.0.0
+		+  Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.0.2
 	* Update “Info.plist” file with GAM Account settings, add them before the last closed tag “dict”. You can get the GADApplication Identifier string from the App you create within your GAM account. For more information please check this link - [https://developers.google.com/admob/ios/quick-start#expandable-1](https://developers.google.com/admob/ios/quick-start#expandable-1)
 
 Example:
@@ -247,3 +247,7 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(on:{value}, adUnitId: 
 	Example of value: **bannerView**
 > 5.  adSize: CGSize – Size of Ad <font color=red>*(required)</font>
 	Example of value: **CGSize(width: 320, height: 50)**
+> 6.  extras: Dictionary<String, String>? – Some extra key value pairs
+	Example of value: **["key1":"value1", "key2":"value2"]**
+> 7.  adRefreshRateInMillis: Double – Ad refresh rate in milliseconds
+	Example of value: **30_000(30 sec)**

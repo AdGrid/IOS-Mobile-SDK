@@ -328,7 +328,7 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
@@ -355,7 +355,7 @@ SWIFT_CLASS("_TtC9AdGridSDK28AdManagerRenderingApiSupport")
 
 
 @interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
 @end
 
 @protocol RewardedAdUnitDelegate;
@@ -768,7 +768,7 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
@@ -795,7 +795,7 @@ SWIFT_CLASS("_TtC9AdGridSDK28AdManagerRenderingApiSupport")
 
 
 @interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
 @end
 
 @protocol RewardedAdUnitDelegate;
