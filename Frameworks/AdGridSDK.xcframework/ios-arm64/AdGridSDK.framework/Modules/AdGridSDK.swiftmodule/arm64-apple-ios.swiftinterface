@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdGridSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AdGridSDK
@@ -12,6 +12,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_hasMissingDesignatedInitializers @objcMembers public class AdManagerSupport : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate, GoogleMobileAds.GADFullScreenContentDelegate {
   @objc deinit
 }
@@ -36,10 +37,11 @@ extension AdGridSDK.AdMobSupport {
 }
 @objc @objcMembers public class AdGridSdk : ObjectiveC.NSObject {
   @objc public static var sharedLogger: (_ logObj: ObjectiveC.NSObject?) -> ()
+  @objc public static func sharedInstance() -> AdGridSDK.AdGridSdk?
   @objc public var googleAdManagerOriginalApiSupport: AdGridSDK.AdManagerOriginalApiSupport {
     @objc get
   }
-  @objc public init(accountId: Swift.String, initialGADTestDeviceIds: Swift.Array<Swift.String>?, _ completion: PrebidMobile.PrebidInitializationCallback? = nil)
+  @objc public init(accountId: Swift.String, initialGADTestDeviceIds: Swift.Array<Swift.String>? = nil, _ completion: PrebidMobile.PrebidInitializationCallback? = nil)
   @objc deinit
 }
 extension AdGridSDK.AdMobSupport {
@@ -47,8 +49,24 @@ extension AdGridSDK.AdMobSupport {
   @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
 }
+public enum AdFormat : Swift.CustomStringConvertible, Swift.CaseIterable {
+  case displayBanner
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: AdGridSDK.AdFormat, b: AdGridSDK.AdFormat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [AdGridSDK.AdFormat]
+  public static var allCases: [AdGridSDK.AdFormat] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension AdGridSDK.AdManagerOriginalApiSupport {
-  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, extras: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000)
+  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, kvps: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000)
+  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, dataPosition: Swift.String, bannerView: UIKit.UIView)
   @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
 }
@@ -86,3 +104,5 @@ extension AdGridSDK.AdManagerRenderingApiSupport {
 extension AdGridSDK.AdMobSupport {
   @objc dynamic public func showRewardedVideoView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, userDidEarnRewardHandler: @escaping GoogleMobileAds.GADUserDidEarnRewardHandler)
 }
+extension AdGridSDK.AdFormat : Swift.Equatable {}
+extension AdGridSDK.AdFormat : Swift.Hashable {}

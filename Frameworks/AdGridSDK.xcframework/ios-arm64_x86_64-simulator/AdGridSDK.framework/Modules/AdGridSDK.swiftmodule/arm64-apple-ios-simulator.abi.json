@@ -599,6 +599,38 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdGridSDK.AdGridSdk?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdGridSdk",
+                    "printedName": "AdGridSDK.AdGridSdk",
+                    "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdGridSdk(cm)sharedInstance",
+            "mangledName": "$s9AdGridSDK0aB3SdkC14sharedInstanceACSgyFZ",
+            "moduleName": "AdGridSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "googleAdManagerOriginalApiSupport",
             "printedName": "googleAdManagerOriginalApiSupport",
@@ -679,6 +711,7 @@
                     "usr": "s:Sa"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -869,6 +902,314 @@
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "AdGridSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFormat",
+        "printedName": "AdFormat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "displayBanner",
+            "printedName": "displayBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdGridSDK.AdFormat.Type) -> AdGridSDK.AdFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFormat",
+                    "printedName": "AdGridSDK.AdFormat",
+                    "usr": "s:9AdGridSDK0A6FormatO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdGridSDK.AdFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFormat",
+                        "printedName": "AdGridSDK.AdFormat",
+                        "usr": "s:9AdGridSDK0A6FormatO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdGridSDK0A6FormatO13displayBanneryA2CmF",
+            "mangledName": "$s9AdGridSDK0A6FormatO13displayBanneryA2CmF",
+            "moduleName": "AdGridSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdGridSDK0A6FormatO11descriptionSSvp",
+            "mangledName": "$s9AdGridSDK0A6FormatO11descriptionSSvp",
+            "moduleName": "AdGridSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A6FormatO11descriptionSSvg",
+                "mangledName": "$s9AdGridSDK0A6FormatO11descriptionSSvg",
+                "moduleName": "AdGridSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFormat",
+                "printedName": "AdGridSDK.AdFormat",
+                "usr": "s:9AdGridSDK0A6FormatO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdFormat",
+                "printedName": "AdGridSDK.AdFormat",
+                "usr": "s:9AdGridSDK0A6FormatO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdGridSDK0A6FormatO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AdGridSDK0A6FormatO2eeoiySbAC_ACtFZ",
+            "moduleName": "AdGridSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdGridSDK0A6FormatO9hashValueSivp",
+            "mangledName": "$s9AdGridSDK0A6FormatO9hashValueSivp",
+            "moduleName": "AdGridSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A6FormatO9hashValueSivg",
+                "mangledName": "$s9AdGridSDK0A6FormatO9hashValueSivg",
+                "moduleName": "AdGridSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdGridSDK0A6FormatO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AdGridSDK0A6FormatO4hash4intoys6HasherVz_tF",
+            "moduleName": "AdGridSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdGridSDK.AdFormat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFormat",
+                    "printedName": "AdGridSDK.AdFormat",
+                    "usr": "s:9AdGridSDK0A6FormatO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdGridSDK0A6FormatO8allCasesSayACGvpZ",
+            "mangledName": "$s9AdGridSDK0A6FormatO8allCasesSayACGvpZ",
+            "moduleName": "AdGridSDK",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdGridSDK.AdFormat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFormat",
+                        "printedName": "AdGridSDK.AdFormat",
+                        "usr": "s:9AdGridSDK0A6FormatO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdGridSDK0A6FormatO8allCasesSayACGvgZ",
+                "mangledName": "$s9AdGridSDK0A6FormatO8allCasesSayACGvgZ",
+                "moduleName": "AdGridSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AdGridSDK0A6FormatO",
+        "mangledName": "$s9AdGridSDK0A6FormatO",
+        "moduleName": "AdGridSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdGridSDK.AdFormat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFormat",
+                        "printedName": "AdGridSDK.AdFormat",
+                        "usr": "s:9AdGridSDK0A6FormatO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1584,7 +1925,7 @@
           {
             "kind": "Function",
             "name": "displayAdView",
-            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:extras:adRefreshRateInMillis:)",
+            "printedName": "displayAdView(on:adUnitId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1659,8 +2000,49 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:extras:adRefreshRateInMillis:",
-            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4Size6extras0K19RefreshRateInMillisySo16UIViewControllerC_S2SSo0W0CSo6CGSizeVSDyS2SGSgSdtF",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId012prebidConfigM006bannerI00K4Size4kvps0K19RefreshRateInMillisySo16UIViewControllerC_S2SSo0W0CSo6CGSizeVSDyS2SGSgSdtF",
+            "moduleName": "AdGridSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayAdView",
+            "printedName": "displayAdView(on:dataPosition:bannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:dataPosition:bannerView:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on12dataPosition06bannerI0ySo16UIViewControllerC_SSSo0N0CtF",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Dynamic",
@@ -3038,7 +3420,7 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/RenderingAPI\/AdManagerRenderingApiSupport+BannerView.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/RenderingAPI\/AdManagerRenderingApiSupport+BannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 574,
       "length": 6,
@@ -3059,7 +3441,7 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/RenderingAPI\/AdManagerRenderingApiSupport+NativeView.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/RenderingAPI\/AdManagerRenderingApiSupport+NativeView.swift",
       "kind": "Dictionary",
       "offset": 1608,
       "length": 3,
@@ -3124,28 +3506,28 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 661,
       "length": 45,
       "value": "\"https:\/\/pbserver.adgrid.io\/openrtb2\/auction\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 740,
       "length": 35,
       "value": "\"https:\/\/pbserver.adgrid.io\/status\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 2479,
+      "offset": 2663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 2584,
+      "offset": 2768,
       "length": 4,
       "value": "true"
     },
@@ -3199,51 +3581,72 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 16,
+      "value": "\"Display Banner\""
+    },
+    {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 511,
+      "offset": 509,
       "length": 6,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
+      "kind": "Dictionary",
+      "offset": 1393,
+      "length": 23,
+      "value": "[(\"platform\", \"mobile\")]"
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1670,
       "length": 50,
       "value": "\"Prebid demand fetch for GAM \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1644,
+      "offset": 1719,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2124,
+      "offset": 1974,
+      "length": 21,
+      "value": "\"Not implemented yet\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
       "length": 68,
       "value": "\"Error occuring during searching for Prebid creative size: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2191,
+      "offset": 2830,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2330,
+      "offset": 2969,
       "length": 49,
       "value": "\"GAM did fail to receive ad with error: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 3017,
       "length": 2,
       "value": "\"\""
     },

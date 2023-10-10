@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		QR0WS9tbUyZYKLbYA8VoXZFqDyw=
-		</data>
 		<key>Headers/AdGridSDK-Swift.h</key>
 		<data>
-		hDIvppfuJdhF/mFKtQIM2D5I8SE=
+		yrs4Ldb13P6vLFTLW7p1gGWdPuI=
 		</data>
 		<key>Headers/AdGridSDK.h</key>
 		<data>
@@ -18,63 +14,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ltMlY46aHmUZz71k5Wp7Qp4BT78=
-		</data>
-		<key>Modules/.DS_Store</key>
-		<data>
-		ALmCDLZrr5vY8eqa+PXyZVwSF2s=
+		iZMoUsUqWuB6HbdejCLddho1+Sc=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OY/vuZ64HtghOoa8NMDfVgUIdeQ=
+		e2Gb7+J/FQkAq/Id6zqWKsekKRk=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ba9DUc5j4oYrhKDEsALU8uRsyns=
+		JusNuM8WisUHQ8qxNA6EHoYKbxk=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xUbxjzhL2qAkNstIW2NpOX0DGGs=
+		7b0pz598UPNd3889e0RLKl0teSo=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fxYXP7CA3iEH025pXR6/0kqV+N8=
+		fmPj4xC7vkjdgTvzTvx8GAcd/lU=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fk9ZtHrsFUHLTTlCRdLLPy3OSOI=
+		USLyqtbtcZORBH92TQRbHKLDlXA=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fxYXP7CA3iEH025pXR6/0kqV+N8=
+		fmPj4xC7vkjdgTvzTvx8GAcd/lU=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2zNxeC8j0SFlanot2Ja7wAh2DLU=
+		xkk+EzJ1+r3w4AuOtZBkYmZzYIA=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xUbxjzhL2qAkNstIW2NpOX0DGGs=
+		7b0pz598UPNd3889e0RLKl0teSo=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Sc0mYZlViZfWaj/keJMr3D6Wie0=
+		Rhjgqxk/nXLhuZhsU9GWiWnsEZM=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eSO5a0pVVBGMHSyZbJBiRC4zUt4=
+		rFXjlU53nF1xRSQbGD3UT1ixYTk=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Sc0mYZlViZfWaj/keJMr3D6Wie0=
+		Rhjgqxk/nXLhuZhsU9GWiWnsEZM=
 		</data>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k0GbJxjY3WnbPeVvco+Ec47MLlE=
+		OwMFLDyY0qmdHkIR8ZUq38aKlSg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		+IYNMC3utgsgvnkwcKcEu7MRULU=
+		6aoedVDrXd0T2xDtI7dm1naUMdk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eCmdeGw3rW2zyYZBYZgv2rp8U/dZgEd20cqbjen/Dk4=
+			jZdq6ZzyLJWKVw4n84uwyB+GMuPsxtOyeDgkBn/6wCU=
 			</data>
 		</dict>
 		<key>Headers/AdGridSDK.h</key>
@@ -97,91 +89,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6mkCQCHmTtXJAhg0EosGI047gEjFTC8mnukqwFMyBV0=
+			E++4sMaL17nDSgvyxeTM4+gc7r3dDTgTctsVbL6xXJQ=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B3OOusqgLRLbwWuHWYEtXoxeEp4LrZaXIEdei4FzZow=
+			twvddUfBUfPb5ZdJZIUNI4VKW1FCgUFxYee0EcsygGQ=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZYNa9fj6JtK9PfLOjJnjSbxydMwfN8iMWFB4xLzcmg=
+			AIe3c0CUvMCv6WKxN6+khWBi3Vz5XkEwfKPBz4mRrAQ=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FddvL5BN7Uq9ALjPZvlywxp2LV0shHXAcQwsOc3h79c=
+			riD76luUy09WTAhO5tHPRE77/O/+0OgIRzZpJjxFqcE=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mDxQCW9rxMSaAeOjSeOJIr8sZDxL6GfOWX5rrMml88=
+			q5bH0Zu6lgZux0ZlB38lSNlyDqz2LpWJn/JHrxOaI1c=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FddvL5BN7Uq9ALjPZvlywxp2LV0shHXAcQwsOc3h79c=
+			riD76luUy09WTAhO5tHPRE77/O/+0OgIRzZpJjxFqcE=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBCgr8WJP28495ygv8Vpe6q82jrZE6GXqW8wHDYobPY=
+			cC/CnH9SCMsYXZNqFctIz9mZBvGMVXLd3Yh6ppdGUrU=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZYNa9fj6JtK9PfLOjJnjSbxydMwfN8iMWFB4xLzcmg=
+			AIe3c0CUvMCv6WKxN6+khWBi3Vz5XkEwfKPBz4mRrAQ=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s1Fw1AXRXXxYys3UKoYER5LMOWNQp7CBcJYxhmP874c=
+			FMReJjucjytULB4Kdm+CPq1x/AJihryMtir4plo1fJU=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bkfzOmISMux8x7FBL2SUdhzva/KSzaZVJqrgkvCMLPI=
+			ONVUcpR/rxn4WWW/kmvtcbFO1/GrYCUPtaNYceabmgo=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s1Fw1AXRXXxYys3UKoYER5LMOWNQp7CBcJYxhmP874c=
+			FMReJjucjytULB4Kdm+CPq1x/AJihryMtir4plo1fJU=
 			</data>
 		</dict>
 		<key>Modules/AdGridSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JmFod60Ri3pqiLp+nahTGWQfxCIIccSHIy3zW9M8beU=
+			VNEWyTY68DSiiI/j+WzHaTgtOHwsvVawc5LUlCvyESM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			obxSqAumkfhBHi2eBxfUstPvBXJhHojAiXAZ8/O7Q84=
+			RE5aYH/JCuh0U1OE20uXuk5Y0e1iyWgHqHScLa9//Gk=
 			</data>
 		</dict>
 	</dict>
