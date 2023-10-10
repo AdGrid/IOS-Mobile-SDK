@@ -36,7 +36,7 @@ class GAMOriginalAPIDisplayBannerViewController: BannerBaseViewController {
             prebidConfigId: storeImpId,
             bannerView: bannerView,
             adSize: adSize,
-            extras: ["key1" : "value1"],
+            kvps: ["key1" : "value1"],
             adRefreshRateInMillis: 30_000)
     }
 }
