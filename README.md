@@ -234,7 +234,7 @@ let adGridSdk = AdGridSdk(accountId: {value}, initialGADTestDeviceIds: {value})
 3. **Display Ad View**
 
 ```swift
-adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(on:{value}, adUnitId: {value} , prebidConfigId: {value}, bannerView: {value}, adSize: {value}, kvps: Dictionary<String, String>?, adRefreshRateInMillis: Double)
+adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(on:{value}, adUnitId: {value} , prebidConfigId: {value}, bannerView: {value}, adSize: {value}, kvps: {value}, adRefreshRateInMillis: {value})
 ```
 
 > 1.  on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
