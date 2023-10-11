@@ -3526,10 +3526,10 @@
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2768,
+      "kind": "IntegerLiteral",
+      "offset": 2772,
       "length": 4,
-      "value": "true"
+      "value": "1000"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
