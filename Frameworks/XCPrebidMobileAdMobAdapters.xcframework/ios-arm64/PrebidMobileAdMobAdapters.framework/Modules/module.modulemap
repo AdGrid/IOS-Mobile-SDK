@@ -1,7 +1,7 @@
 framework module PrebidMobileAdMobAdapters {
   umbrella header "PrebidMobileAdMobAdapters.h"
-
   export *
+
   module * { export * }
 }
 

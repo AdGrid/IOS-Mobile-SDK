@@ -1,7 +1,7 @@
 framework module PrebidMobileGAMEventHandlers {
   umbrella header "PrebidMobileGAMEventHandlers.h"
-
   export *
+
   module * { export * }
 }
 

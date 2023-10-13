@@ -513,7 +513,7 @@
 			repositoryURL = "https://github.com/AdGrid/IOS-Mobile-SDK.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.4;
+				minimumVersion = 1.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

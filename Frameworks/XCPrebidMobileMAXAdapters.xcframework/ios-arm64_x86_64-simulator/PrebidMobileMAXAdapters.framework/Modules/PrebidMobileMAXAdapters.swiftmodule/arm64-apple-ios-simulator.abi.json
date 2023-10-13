@@ -4074,161 +4074,161 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationNativeUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationNativeUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1209,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationNativeUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationNativeUtils.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 23,
       "value": "\"PrebidMobileMAXAdapters.MAXMediationNativeUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 970,
       "length": 35,
       "value": "\"There is no targeting info in bid\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 56,
       "value": "\"There is no server parameter in local extra parameters\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1170,
       "length": 49,
       "value": "\"Targeting info doesn't contain server parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1282,
       "length": 52,
       "value": "\"Bid object is absent in the local extra parameters\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 51,
       "value": "\"Config id is absent in the local extra parameters\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 5631,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 6656,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 6928,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter+MAInterstitialAdapter+MARewardedAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 8211,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 19,
       "value": "\"custom_parameters\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAXMediationAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 1149,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationInterstitialUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationInterstitialUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1206,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationInterstitialUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationInterstitialUtils.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 29,
       "value": "\"PrebidMobileMAXAdapters.MAXMediationInterstitialUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
       "kind": "StringLiteral",
       "offset": 942,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1908,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/PrebidMAUnifiedNativeAd.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 23,
       "value": "\"PrebidMobileMAXAdapters.PrebidMAUnifiedNativeAd\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXConstants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXConstants.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 7,
       "value": "\"2.0.0\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationBannerUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationBannerUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1144,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationBannerUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationBannerUtils.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 23,
       "value": "\"PrebidMobileMAXAdapters.MAXMediationBannerUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationRewardedlUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationRewardedlUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1183,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationRewardedlUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileMAXAdapters\/Sources\/MAXMediationRewardedlUtils.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 25,

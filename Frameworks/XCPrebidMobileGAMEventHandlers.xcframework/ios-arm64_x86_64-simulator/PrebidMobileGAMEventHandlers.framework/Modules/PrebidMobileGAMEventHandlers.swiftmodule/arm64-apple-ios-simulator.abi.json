@@ -3212,686 +3212,686 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2572,
       "length": 19,
       "value": "\"GAMInterstitialAd\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2637,
       "length": 21,
       "value": "\"GADAppEventDelegate\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2686,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2756,
       "length": 54,
       "value": "\"loadWithAdManagerAdUnitID:request:completionHandler:\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3477,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3508,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMInterstitialAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3562,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1071,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 3304,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 5882,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 6572,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 6956,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMBannerEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 21,
       "value": "\"PrebidMobileGAMEventHandlers.GAMBannerEventHandler\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1039,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 1445,
       "length": 9,
       "value": "\"AdTitle\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2098,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2197,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 5300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 6027,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 6532,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMRewardedEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 25,
       "value": "\"PrebidMobileGAMEventHandlers.GAMRewardedAdEventHandler\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1421,
       "length": 19,
       "value": "\"GADCustomNativeAd\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1468,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1748,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1779,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADCustomNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1824,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 10,
       "value": "\"isPrebid\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 16,
       "value": "\"PrebidAppEvent\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 855,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1101,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1622,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1737,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1777,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 4822,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 5750,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 6289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMInterstitialEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 27,
       "value": "\"PrebidMobileGAMEventHandlers.GAMInterstitialEventHandler\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2864,
       "length": 15,
       "value": "\"GADRewardedAd\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2922,
       "length": 13,
       "value": "\"GADAdReward\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2981,
       "length": 23,
       "value": "\"GADAdMetadataDelegate\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3032,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 3102,
       "length": 45,
       "value": "\"loadWithAdUnitID:request:completionHandler:\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3200,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3227,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3782,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3813,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADRewardedAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 3867,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1627,
       "length": 12,
       "value": "\"GAMRequest\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1667,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2031,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMRequestWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2076,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1786,
       "length": 13,
       "value": "\"GADNativeAd\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1827,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2411,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2442,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GADNativeAdWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2496,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 5,
       "value": "\"hb_\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 36,
       "value": "\"org.prebid.mobile.GAMEventHandlers\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 1813,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 1831,
-      "length": 1,
-      "value": "6"
+      "length": 2,
+      "value": "11"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 1848,
+      "offset": 1849,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "Dictionary",
-      "offset": 2074,
+      "offset": 2075,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2911,
+      "offset": 2912,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 2951,
+      "offset": 2952,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "StringLiteral",
-      "offset": 4300,
+      "offset": 4301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5546,
+      "offset": 5547,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 715,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 726,
       "length": 14,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 750,
       "length": 19,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 779,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 804,
       "length": 11,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 825,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 715,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 726,
       "length": 14,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 750,
       "length": 19,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 779,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 804,
       "length": 11,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "IntegerLiteral",
       "offset": 825,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 60,
       "value": "\"GoogleMobileAds SDK does not provide the required classes.\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 978,
       "length": 70,
       "value": "\"Failed to find local cache ID (expected in \""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 1091,
       "length": 51,
       "value": "\"Invalid local cache ID or the Ad already expired.\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 52,
       "value": "\"Failed to load Native Ad from cached bid response.\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 1280,
       "length": 25,
       "value": "\"The ad is not Prebid ad\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/GAMEventHandlerError.swift",
       "kind": "StringLiteral",
       "offset": 1348,
       "length": 29,
       "value": "\"The ad hasn’t been loaded\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2651,
       "length": 15,
       "value": "\"GAMBannerView\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2712,
       "length": 23,
       "value": "\"GADBannerViewDelegate\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2781,
       "length": 21,
       "value": "\"GADAppEventDelegate\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "StringLiteral",
       "offset": 2848,
       "length": 19,
       "value": "\"GADAdSizeDelegate\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 2895,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 4281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 4312,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileGAMEventHandlers\/Sources\/Boxes\/GAMBannerViewWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 4366,
       "length": 4,

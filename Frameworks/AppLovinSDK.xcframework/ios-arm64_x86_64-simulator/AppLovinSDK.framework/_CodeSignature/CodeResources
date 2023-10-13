@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ALAd.h</key>
 		<data>
-		qEqIB+b4SrZYPQ98WrzQOB3iNYM=
+		8pEoTqP3JSyx/PifZtsZr9etU0Y=
 		</data>
 		<key>Headers/ALAdDisplayDelegate.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/ALAdVideoPlaybackDelegate.h</key>
 		<data>
-		yzJCkjDB5+K5/fb60703W2gS4vI=
+		8EudQZraGAJWl54uaOeth2iFY9Q=
 		</data>
 		<key>Headers/ALAdView.h</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Headers/MACollectionViewAdPlacer.h</key>
 		<data>
-		m8xK48h2y7A6Hgbs4MY1WAkIWy4=
+		mOCRH9bBetT2brlvTPqfyhkHwBU=
 		</data>
 		<key>Headers/MACollectionViewAdPlacerCell.h</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>Headers/MANativeAdLoader.h</key>
 		<data>
-		93gfMGjNPGgPtb7MzdXalQNZlo8=
+		JgkB2WgZ1lqv101UJezkJYUyr+k=
 		</data>
 		<key>Headers/MANativeAdView.h</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		50nVIdxLek+Jozr/00ks+eg8wvQ=
+		kmPfBS/KKcluEPQux8DMWdK+ZZo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -391,11 +391,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qEqIB+b4SrZYPQ98WrzQOB3iNYM=
+			8pEoTqP3JSyx/PifZtsZr9etU0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Y4HOFHFajutVSSvTPpL+4UvFfsH12QlhxvfacrSXh8=
+			2L9PWIiVtTQWn6FIJTpIGeHHtY47SdOJTlYI9D4esfQ=
 			</data>
 		</dict>
 		<key>Headers/ALAdDisplayDelegate.h</key>
@@ -468,11 +468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yzJCkjDB5+K5/fb60703W2gS4vI=
+			8EudQZraGAJWl54uaOeth2iFY9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			fnq5Er4UzCamR5bLXc6xiIUwUddUpWH0yN3pOnkPhoc=
+			Tv2UPNrnpMeR1n5tWp5o/elxi6IVyBh/pi16caja/uU=
 			</data>
 		</dict>
 		<key>Headers/ALAdView.h</key>
@@ -1051,11 +1051,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m8xK48h2y7A6Hgbs4MY1WAkIWy4=
+			mOCRH9bBetT2brlvTPqfyhkHwBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			soJzrsVqK27kdrT9BI+Tgx0Fv7Q7QBCnyOeSLMfc2So=
+			XT8HzoJI60nPcbbMrSyfcCkbu9XyHVWLlx5KkBTbZZw=
 			</data>
 		</dict>
 		<key>Headers/MACollectionViewAdPlacerCell.h</key>
@@ -1205,11 +1205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			93gfMGjNPGgPtb7MzdXalQNZlo8=
+			JgkB2WgZ1lqv101UJezkJYUyr+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NKPQl/TopQTSJolDOw7JvnkUj390gIvjiZjWOrfxBSg=
+			Vl1bICtniFVdfadDXHUkznqfcL0dxdxOj8wVggWAFr0=
 			</data>
 		</dict>
 		<key>Headers/MANativeAdView.h</key>

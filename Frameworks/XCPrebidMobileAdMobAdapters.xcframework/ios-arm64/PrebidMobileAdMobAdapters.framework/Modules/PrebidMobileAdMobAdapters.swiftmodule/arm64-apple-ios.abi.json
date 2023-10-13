@@ -5581,392 +5581,392 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 1078,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "StringLiteral",
       "offset": 1591,
       "length": 11,
       "value": "\"parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 3504,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4644,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4910,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 5389,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobRewardedVideoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 5849,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobConstants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobConstants.swift",
       "kind": "StringLiteral",
       "offset": 725,
       "length": 30,
       "value": "\"PrebidAdMobCustomEventExtras\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobConstants.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobConstants.swift",
       "kind": "StringLiteral",
       "offset": 814,
       "length": 7,
       "value": "\"2.0.0\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "StringLiteral",
       "offset": 920,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 943,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1005,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1178,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1291,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "StringLiteral",
       "offset": 1467,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1490,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1548,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1604,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1709,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1814,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 2111,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 2129,
-      "length": 1,
-      "value": "6"
+      "length": 2,
+      "value": "11"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobMediationBaseAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2146,
+      "offset": 2147,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationBannerUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationBannerUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1503,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationBannerUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationBannerUtils.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 25,
       "value": "\"PrebidMobileAdMobAdapters.AdMobMediationBannerUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 1089,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
       "kind": "StringLiteral",
       "offset": 1589,
       "length": 11,
       "value": "\"parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4429,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobVideoInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4695,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationNativeUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationNativeUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1393,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationNativeUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationNativeUtils.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 25,
       "value": "\"PrebidMobileAdMobAdapters.AdMobMediationNativeUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1095,
       "length": 34,
       "value": "\"The custom event extras is empty\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1183,
       "length": 55,
       "value": "\"The targeting info dictionary is absent in the extras\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 40,
       "value": "\"The Bid object is absent in the extras\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 39,
       "value": "\"The Config ID is absent in the extras\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1479,
       "length": 39,
       "value": "\"Server parameter is absent in request\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1572,
       "length": 46,
       "value": "\"User keywords don't contain server parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1672,
       "length": 25,
       "value": "\"User keywords are empty\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1751,
       "length": 17,
       "value": "\"No ad available\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1822,
       "length": 17,
       "value": "\"Ad is not valid\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobAdaptersError.swift",
       "kind": "StringLiteral",
       "offset": 1893,
       "length": 12,
       "value": "\"Ad expired\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 2042,
       "length": 11,
       "value": "\"parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobNativeAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationRewardedUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationRewardedUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationRewardedUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationRewardedUtils.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 27,
       "value": "\"PrebidMobileAdMobAdapters.AdMobMediationRewardedUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationInterstitialUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationInterstitialUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 1390,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationInterstitialUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobMediationInterstitialUtils.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 31,
       "value": "\"PrebidMobileAdMobAdapters.AdMobMediationInterstitialUtils\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 1079,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
       "kind": "StringLiteral",
       "offset": 1588,
       "length": 11,
       "value": "\"parameter\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 3969,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobInterstitialAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4235,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobUtils.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 5,
       "value": "\"hb_\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobUtils.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/AdMobUtils.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 3,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.2\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobBannerAdapter.swift",
+      "filePath": "\/Users\/vitaliioverchuk\/Downloads\/prebid-mobile-ios-2.1.5\/EventHandlers\/PrebidMobileAdMobAdapters\/Sources\/PrebidAdMobBannerAdapter.swift",
       "kind": "StringLiteral",
       "offset": 1546,
       "length": 11,

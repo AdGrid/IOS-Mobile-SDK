@@ -326,19 +326,7 @@ SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
 
 
 SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
-@interface AdManagerOriginalApiSupport : AdManagerSupport <GADCustomNativeAdLoaderDelegate>
-@end
-
-
-
-
-
-
-
-@protocol GADFullScreenPresentingAd;
-
-@interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+@interface AdManagerOriginalApiSupport : AdManagerSupport
 @end
 
 @class UIViewController;
@@ -352,102 +340,6 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
 
-@class GADAdLoader;
-@class GADCustomNativeAd;
-
-@interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (NSArray<NSString *> * _Nonnull)customNativeAdFormatIDsForAdLoader:(GADAdLoader * _Nonnull)adLoader SWIFT_WARN_UNUSED_RESULT;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveCustomNativeAd:(GADCustomNativeAd * _Nonnull)customNativeAd;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
-
-
-SWIFT_CLASS("_TtC9AdGridSDK28AdManagerRenderingApiSupport")
-@interface AdManagerRenderingApiSupport : AdManagerSupport
-@end
-
-@protocol BannerViewDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showVideoBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate;
-@end
-
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
-@end
-
-@protocol RewardedAdUnitDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showVideoRewardedViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <RewardedAdUnitDelegate> _Nonnull)delegate;
-@end
-
-@protocol InterstitialAdUnitDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialBannerViewWithAdUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <InterstitialAdUnitDelegate> _Nonnull)delegate;
-@end
-
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <InterstitialAdUnitDelegate> _Nonnull)delegate;
-@end
-
-@class NativeAsset;
-@class NativeEventTracker;
-@class ContextType;
-@class PlacementType;
-@class ContextSubType;
-@class GADAdLoaderOptions;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showNativeViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId nativeRequestAssets:(NSArray<NativeAsset *> * _Nonnull)nativeRequestAssets eventTrackers:(NSArray<NativeEventTracker *> * _Nonnull)eventTrackers contextType:(ContextType * _Nonnull)contextType placementType:(PlacementType * _Nonnull)placementType contextSubType:(ContextSubType * _Nonnull)contextSubType adTypes:(NSArray<GADAdLoaderAdType> * _Nonnull)adTypes options:(NSArray<GADAdLoaderOptions *> * _Nullable)options delegate:(id <GADCustomNativeAdLoaderDelegate> _Nonnull)delegate;
-@end
-
-
-
-SWIFT_CLASS("_TtC9AdGridSDK12AdMobSupport")
-@interface AdMobSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate, GADNativeAdLoaderDelegate>
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showRewardedVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize userDidEarnRewardHandler:(GADUserDidEarnRewardHandler _Nonnull)userDidEarnRewardHandler;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId;
-- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
-- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
-
-@class GADNativeAd;
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showNativeViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId nativeRequestAssets:(NSArray<NativeAsset *> * _Nonnull)nativeRequestAssets eventTrackers:(NSArray<NativeEventTracker *> * _Nonnull)eventTrackers contextType:(ContextType * _Nonnull)contextType placementType:(PlacementType * _Nonnull)placementType contextSubType:(ContextSubType * _Nonnull)contextSubType adTypes:(NSArray<GADAdLoaderAdType> * _Nonnull)adTypes options:(NSArray<GADAdLoaderOptions *> * _Nullable)options completion:(void (^ _Nonnull)(GADNativeAd * _Nonnull))completion;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -785,19 +677,7 @@ SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
 
 
 SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
-@interface AdManagerOriginalApiSupport : AdManagerSupport <GADCustomNativeAdLoaderDelegate>
-@end
-
-
-
-
-
-
-
-@protocol GADFullScreenPresentingAd;
-
-@interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+@interface AdManagerOriginalApiSupport : AdManagerSupport
 @end
 
 @class UIViewController;
@@ -811,102 +691,6 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
 
-@class GADAdLoader;
-@class GADCustomNativeAd;
-
-@interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (NSArray<NSString *> * _Nonnull)customNativeAdFormatIDsForAdLoader:(GADAdLoader * _Nonnull)adLoader SWIFT_WARN_UNUSED_RESULT;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveCustomNativeAd:(GADCustomNativeAd * _Nonnull)customNativeAd;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
-
-
-SWIFT_CLASS("_TtC9AdGridSDK28AdManagerRenderingApiSupport")
-@interface AdManagerRenderingApiSupport : AdManagerSupport
-@end
-
-@protocol BannerViewDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showVideoBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate;
-@end
-
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize delegate:(id <BannerViewDelegate> _Nonnull)delegate extras:(NSDictionary<NSString *, NSString *> * _Nullable)extras adRefreshRateInMillis:(double)adRefreshRateInMillis;
-@end
-
-@protocol RewardedAdUnitDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showVideoRewardedViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <RewardedAdUnitDelegate> _Nonnull)delegate;
-@end
-
-@protocol InterstitialAdUnitDelegate;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialBannerViewWithAdUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <InterstitialAdUnitDelegate> _Nonnull)delegate;
-@end
-
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId delegate:(id <InterstitialAdUnitDelegate> _Nonnull)delegate;
-@end
-
-@class NativeAsset;
-@class NativeEventTracker;
-@class ContextType;
-@class PlacementType;
-@class ContextSubType;
-@class GADAdLoaderOptions;
-
-@interface AdManagerRenderingApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showNativeViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId nativeRequestAssets:(NSArray<NativeAsset *> * _Nonnull)nativeRequestAssets eventTrackers:(NSArray<NativeEventTracker *> * _Nonnull)eventTrackers contextType:(ContextType * _Nonnull)contextType placementType:(PlacementType * _Nonnull)placementType contextSubType:(ContextSubType * _Nonnull)contextSubType adTypes:(NSArray<GADAdLoaderAdType> * _Nonnull)adTypes options:(NSArray<GADAdLoaderOptions *> * _Nullable)options delegate:(id <GADCustomNativeAdLoaderDelegate> _Nonnull)delegate;
-@end
-
-
-
-SWIFT_CLASS("_TtC9AdGridSDK12AdMobSupport")
-@interface AdMobSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate, GADNativeAdLoaderDelegate>
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showRewardedVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize userDidEarnRewardHandler:(GADUserDidEarnRewardHandler _Nonnull)userDidEarnRewardHandler;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showInterestialViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId;
-- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
-@end
-
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showBannerVideoViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize;
-- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
-- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
-
-@class GADNativeAd;
-
-@interface AdMobSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)showNativeViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId nativeRequestAssets:(NSArray<NativeAsset *> * _Nonnull)nativeRequestAssets eventTrackers:(NSArray<NativeEventTracker *> * _Nonnull)eventTrackers contextType:(ContextType * _Nonnull)contextType placementType:(PlacementType * _Nonnull)placementType contextSubType:(ContextSubType * _Nonnull)contextSubType adTypes:(NSArray<GADAdLoaderAdType> * _Nonnull)adTypes options:(NSArray<GADAdLoaderOptions *> * _Nullable)options completion:(void (^ _Nonnull)(GADNativeAd * _Nonnull))completion;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
