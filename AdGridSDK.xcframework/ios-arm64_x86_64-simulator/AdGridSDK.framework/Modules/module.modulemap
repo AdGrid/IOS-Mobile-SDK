@@ -1,0 +1,11 @@
+framework module AdGridSDK {
+  umbrella header "AdGridSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AdGridSDK.Swift {
+  header "AdGridSDK-Swift.h"
+  requires objc
+}
