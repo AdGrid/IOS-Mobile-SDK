@@ -1,0 +1,11 @@
+framework module PrebidMobileGAMEventHandlers {
+  umbrella header "PrebidMobileGAMEventHandlers-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PrebidMobileGAMEventHandlers.Swift {
+  header "PrebidMobileGAMEventHandlers-Swift.h"
+  requires objc
+}

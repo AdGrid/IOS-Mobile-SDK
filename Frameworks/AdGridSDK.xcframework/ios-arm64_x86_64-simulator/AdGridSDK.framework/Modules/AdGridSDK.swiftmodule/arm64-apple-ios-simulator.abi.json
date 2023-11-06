@@ -1294,21 +1294,28 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 661,
-      "length": 45,
-      "value": "\"https:\/\/pbserver.adgrid.io\/openrtb2\/auction\""
+      "offset": 660,
+      "length": 28,
+      "value": "\"https:\/\/pbserver.adgrid.io\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 35,
-      "value": "\"https:\/\/pbserver.adgrid.io\/status\""
+      "offset": 804,
+      "length": 19,
+      "value": "\"\/openrtb2\/auction\""
+    },
+    {
+      "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 9,
+      "value": "\"\/status\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2824,
+      "offset": 2932,
       "length": 4,
       "value": "1000"
     },

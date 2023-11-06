@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,12 +17,12 @@
 		803DF4562A70165400F4C871 /* BannerBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DF42E2A70165400F4C871 /* BannerBaseViewController.swift */; };
 		803DF4572A70165400F4C871 /* BannerBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803DF42F2A70165400F4C871 /* BannerBaseViewController.xib */; };
 		803DF4602A70190300F4C871 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DF45F2A70190300F4C871 /* UIButton+Extensions.swift */; };
-		804A8AB92A93CF8000A976CC /* AdGridSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 804A8AB82A93CF8000A976CC /* AdGridSDK */; };
 		808AAD742A6C9899008A7DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AAD732A6C9899008A7DEB /* AppDelegate.swift */; };
 		808AAD762A6C9899008A7DEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AAD752A6C9899008A7DEB /* SceneDelegate.swift */; };
 		808AAD7B2A6C9899008A7DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD792A6C9899008A7DEB /* Main.storyboard */; };
 		808AAD7D2A6C989B008A7DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD7C2A6C989B008A7DEB /* Assets.xcassets */; };
 		808AAD802A6C989B008A7DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD7E2A6C989B008A7DEB /* LaunchScreen.storyboard */; };
+		8094730A2AF8EA2E00F86651 /* AdGridSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 809473092AF8EA2E00F86651 /* AdGridSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804A8AB92A93CF8000A976CC /* AdGridSDK in Frameworks */,
+				8094730A2AF8EA2E00F86651 /* AdGridSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			children = (
 				808AAD722A6C9899008A7DEB /* AdGridTestApp */,
 				808AAD712A6C9899008A7DEB /* Products */,
-				808AAD872A6C98C5008A7DEB /* Frameworks */,
+				ED343F278050A8CC7EECE1F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,11 +174,11 @@
 			path = AdGridTestApp;
 			sourceTree = "<group>";
 		};
-		808AAD872A6C98C5008A7DEB /* Frameworks */ = {
+		ED343F278050A8CC7EECE1F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +199,7 @@
 			);
 			name = AdGridTestApp;
 			packageProductDependencies = (
-				804A8AB82A93CF8000A976CC /* AdGridSDK */,
+				809473092AF8EA2E00F86651 /* AdGridSDK */,
 			);
 			productName = AdGridTestApp;
 			productReference = 808AAD702A6C9899008A7DEB /* AdGridTestApp.app */;
@@ -230,7 +230,7 @@
 			);
 			mainGroup = 808AAD672A6C9899008A7DEB;
 			packageReferences = (
-				804A8AB72A93CF8000A976CC /* XCRemoteSwiftPackageReference "IOS-Mobile-SDK" */,
+				809473082AF8EA2E00F86651 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 808AAD712A6C9899008A7DEB /* Products */;
 			projectDirPath = "";
@@ -350,6 +350,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -403,6 +404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -435,6 +437,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.adgrid.AdGridTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -472,6 +478,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.adgrid.AdGridTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -507,21 +517,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		804A8AB72A93CF8000A976CC /* XCRemoteSwiftPackageReference "IOS-Mobile-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AdGrid/IOS-Mobile-SDK.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.5;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		809473082AF8EA2E00F86651 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		804A8AB82A93CF8000A976CC /* AdGridSDK */ = {
+		809473092AF8EA2E00F86651 /* AdGridSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 804A8AB72A93CF8000A976CC /* XCRemoteSwiftPackageReference "IOS-Mobile-SDK" */;
 			productName = AdGridSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
