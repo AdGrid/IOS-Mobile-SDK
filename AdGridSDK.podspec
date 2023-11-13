@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.swift_version         = '5.0'
     s.summary               = 'Provides an opportunity for show ad via AdGrid.'
     s.requires_arc          = true
-    s.version               = '1.0.7'
+    s.version               = '1.0.8'
     s.license               = { :type => 'GPL 3.0', :file => 'LICENSE.md' }
     s.author                = { 'AdGrid' => 'michael.tardif@adgrid.io' }
     s.homepage              = 'https://github.com/AdGrid/IOS-Mobile-SDK'
@@ -16,5 +16,9 @@ Pod::Spec.new do |s|
                               'Frameworks/PrebidMobileAdMobAdapters.xcframework', 
                               'Frameworks/PrebidMobileGAMEventHandlers.xcframework'
     s.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
+    # s.dependency 'Apollo', '1.7.0'
+    # s.dependency 'Apollo/Core', '1.7.0'
+    # s.dependency 'Apollo/SQLite', '1.7.0'
+    # s.dependency 'Apollo/WebSocket', '1.7.0'
     
     end

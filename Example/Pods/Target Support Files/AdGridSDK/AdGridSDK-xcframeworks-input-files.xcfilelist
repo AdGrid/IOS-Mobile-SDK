@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/AdGridSDK/AdGridSDK-xcframeworks.sh
+${PODS_ROOT}/../../Frameworks/AdGridSDK.xcframework
+${PODS_ROOT}/../../Frameworks/PrebidMobile.xcframework
+${PODS_ROOT}/../../Frameworks/PrebidMobileAdMobAdapters.xcframework
+${PODS_ROOT}/../../Frameworks/PrebidMobileGAMEventHandlers.xcframework

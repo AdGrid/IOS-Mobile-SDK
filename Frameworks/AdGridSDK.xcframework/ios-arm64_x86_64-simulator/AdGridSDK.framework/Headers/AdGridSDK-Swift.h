@@ -282,6 +282,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import GoogleMobileAds;
 @import ObjectiveC;
 @import PrebidMobile;
+@import UIKit;
 #endif
 
 #endif
@@ -317,6 +318,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nonnull sharedL
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9AdGridSDK10AdGridView")
+@interface AdGridView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 
 SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
 @interface AdManagerSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate>
@@ -330,15 +340,16 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @end
 
 @class UIViewController;
-@class UIView;
 @class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion bannerViewDelegate:(id <GADBannerViewDelegate> _Nullable)bannerViewDelegate;
 - (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
+
+
 
 
 #endif
@@ -633,6 +644,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import GoogleMobileAds;
 @import ObjectiveC;
 @import PrebidMobile;
+@import UIKit;
 #endif
 
 #endif
@@ -668,6 +680,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nonnull sharedL
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9AdGridSDK10AdGridView")
+@interface AdGridView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 
 SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
 @interface AdManagerSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate>
@@ -681,15 +702,16 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @end
 
 @class UIViewController;
-@class UIView;
 @class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion bannerViewDelegate:(id <GADBannerViewDelegate> _Nullable)bannerViewDelegate;
 - (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
+
+
 
 
 #endif

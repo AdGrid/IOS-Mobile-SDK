@@ -1,0 +1,4 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdGridSDK/AdGridSDK.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdGridSDK/PrebidMobile.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdGridSDK/PrebidMobileAdMobAdapters.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdGridSDK/PrebidMobileGAMEventHandlers.framework

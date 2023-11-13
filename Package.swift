@@ -14,7 +14,11 @@ let package = Package(
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
             "10.12.0"..<"10.12.0"
-        )
+        ),
+        // .package(
+        //     url: "https://github.com/apollographql/apollo-ios.git",
+        //     "1.7.0"..<"1.7.0"
+        // )
     ],
     targets: [
         .target(
@@ -25,6 +29,10 @@ let package = Package(
                 .target(name: "PrebidMobileAdMobAdapters"),
                 .target(name: "PrebidMobileGAMEventHandlers"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+                // .product(name: "Apollo", package: "apollo-ios"),
+                // .product(name: "ApolloAPI", package: "apollo-ios"),
+                // .product(name: "ApolloSQLite", package: "apollo-ios"),
+                // .product(name: "ApolloWebSocket", package: "apollo-ios"),
             ],
             path: "AdGridSDKTarget"
         ),

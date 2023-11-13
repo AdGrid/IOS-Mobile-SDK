@@ -1,0 +1,6 @@
+framework module Pods_AdGridTestApp {
+  umbrella header "Pods-AdGridTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

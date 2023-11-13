@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,7 @@
 		808AAD7B2A6C9899008A7DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD792A6C9899008A7DEB /* Main.storyboard */; };
 		808AAD7D2A6C989B008A7DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD7C2A6C989B008A7DEB /* Assets.xcassets */; };
 		808AAD802A6C989B008A7DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808AAD7E2A6C989B008A7DEB /* LaunchScreen.storyboard */; };
-		8094730A2AF8EA2E00F86651 /* AdGridSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 809473092AF8EA2E00F86651 /* AdGridSDK */; };
+		A0F1A1CD729194B30DE12CF6 /* Pods_AdGridTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B18932805F552D36E772D8 /* Pods_AdGridTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +39,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15B06557D24E297C8B9395BE /* Pods-AdGridTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdGridTestApp.release.xcconfig"; path = "Target Support Files/Pods-AdGridTestApp/Pods-AdGridTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		30C958AF468C780120002499 /* Pods-AdGridTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdGridTestApp.debug.xcconfig"; path = "Target Support Files/Pods-AdGridTestApp/Pods-AdGridTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		32B18932805F552D36E772D8 /* Pods_AdGridTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdGridTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		803DF40A2A70165400F4C871 /* IntegrationCaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationCaseManager.swift; sourceTree = "<group>"; };
 		803DF40B2A70165400F4C871 /* IntegrationCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationCase.swift; sourceTree = "<group>"; };
 		803DF40C2A70165400F4C871 /* IntegrationKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationKind.swift; sourceTree = "<group>"; };
@@ -63,13 +66,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8094730A2AF8EA2E00F86651 /* AdGridSDK in Frameworks */,
+				A0F1A1CD729194B30DE12CF6 /* Pods_AdGridTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2287196297FB8C9681BBF0D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C958AF468C780120002499 /* Pods-AdGridTestApp.debug.xcconfig */,
+				15B06557D24E297C8B9395BE /* Pods-AdGridTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49BFB9AE52A92871F52F60C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B18932805F552D36E772D8 /* Pods_AdGridTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		803DF4062A70165400F4C871 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +169,8 @@
 			children = (
 				808AAD722A6C9899008A7DEB /* AdGridTestApp */,
 				808AAD712A6C9899008A7DEB /* Products */,
-				ED343F278050A8CC7EECE1F6 /* Pods */,
+				2287196297FB8C9681BBF0D3 /* Pods */,
+				49BFB9AE52A92871F52F60C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,13 +196,6 @@
 			path = AdGridTestApp;
 			sourceTree = "<group>";
 		};
-		ED343F278050A8CC7EECE1F6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,19 +203,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 808AAD842A6C989B008A7DEB /* Build configuration list for PBXNativeTarget "AdGridTestApp" */;
 			buildPhases = (
+				8A3648B2F58A0017DBD66BE9 /* [CP] Check Pods Manifest.lock */,
 				808AAD6C2A6C9899008A7DEB /* Sources */,
 				808AAD6D2A6C9899008A7DEB /* Frameworks */,
 				808AAD6E2A6C9899008A7DEB /* Resources */,
 				803DF4632A705D2800F4C871 /* Embed Frameworks */,
+				0263AC93A31A4FCAAC7AD4C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AdGridTestApp;
-			packageProductDependencies = (
-				809473092AF8EA2E00F86651 /* AdGridSDK */,
-			);
 			productName = AdGridTestApp;
 			productReference = 808AAD702A6C9899008A7DEB /* AdGridTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -229,9 +243,6 @@
 				Base,
 			);
 			mainGroup = 808AAD672A6C9899008A7DEB;
-			packageReferences = (
-				809473082AF8EA2E00F86651 /* XCLocalSwiftPackageReference ".." */,
-			);
 			productRefGroup = 808AAD712A6C9899008A7DEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,6 +265,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0263AC93A31A4FCAAC7AD4C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdGridTestApp/Pods-AdGridTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdGridTestApp/Pods-AdGridTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdGridTestApp/Pods-AdGridTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3648B2F58A0017DBD66BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdGridTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		808AAD6C2A6C9899008A7DEB /* Sources */ = {
@@ -414,6 +467,7 @@
 		};
 		808AAD852A6C989B008A7DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C958AF468C780120002499 /* Pods-AdGridTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +509,7 @@
 		};
 		808AAD862A6C989B008A7DEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B06557D24E297C8B9395BE /* Pods-AdGridTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -516,20 +571,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		809473082AF8EA2E00F86651 /* XCLocalSwiftPackageReference ".." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ..;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		809473092AF8EA2E00F86651 /* AdGridSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdGridSDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 808AAD682A6C9899008A7DEB /* Project object */;
 }
