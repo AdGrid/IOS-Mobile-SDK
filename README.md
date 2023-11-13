@@ -10,9 +10,9 @@ Please follow the instructions below for integration of the SDK into your mobile
 
 1. **Add AdGridSDK reference to your project.**
     * Add our library
-      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.0.7
+      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.0.9
         * Required settings: Add the `-ObjC` option to `Other Linker Flags` in the `Build Settings` tab of the host project.
-      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.0.7'`
+      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.0.9'`
     * Update “Info.plist” file with GAM Account settings, add them before the last closed tag “dict”. You can get the GADApplication Identifier string from the App you create within your GAM account. For more information please check this link - [https://developers.google.com/admob/ios/quick-start#expandable-1](https://developers.google.com/admob/ios/quick-start#expandable-1)
 
 Example:
