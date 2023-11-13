@@ -1731,28 +1731,28 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 843,
+      "offset": 841,
       "length": 19,
       "value": "\"\/openrtb2\/auction\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 911,
       "length": 9,
       "value": "\"\/status\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 963,
       "length": 52,
       "value": "\"https:\/\/console.adgrid.io\/backend-wp\/adgridgraphql\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2768,
+      "offset": 2764,
       "length": 4,
       "value": "1000"
     },
