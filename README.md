@@ -266,10 +266,12 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
 
 ## Prebid Target header bindings
 
+### ❗❗❗Important thing - Setup before call "displayAdView" method❗❗❗
+
 ### Example of usage
 
 ```swift
-Targeting.shared.gdprConsentString = "A String"
+Targeting.shared.{variable} = {value}
 ```
 
 ### All available properties
