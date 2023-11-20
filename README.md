@@ -235,7 +235,16 @@ let adGridSdk = AdGridSdk(accountId: {value}, initialGADTestDeviceIds: {value})
 3. **Display Ad View**
 
 ```swift
-adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(on:{value}, adUnitId: {value} , prebidConfigId: {value}, bannerView: {value}, adSize: {value}, kvps: {value}, adRefreshRateInMillis: {value})
+adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
+  on:{value}, 
+  adUnitId: {value}, 
+  prebidConfigId: {value}, 
+  bannerView: {value}, 
+  adSize: {value}, 
+  kvps: {value}, 
+  adRefreshRateInMillis: {value}, 
+  loadAdCompletion: {value}, 
+  bannerViewDelegate: {value})
 ```
 
 > 1.  on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
@@ -252,3 +261,32 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(on:{value}, adUnitId: 
 	Example of value: **["key1":"value1", "key2":"value2"]**
 > 7.  adRefreshRateInMillis: Double – Ad refresh rate in milliseconds
 	Example of value: **30_000(30 sec)**
+> 8.  loadAdCompletion: (_ result: ResultCode) -> Void – Load prebid ad callback
+> 9.  bannerViewDelegate: GADBannerViewDelegate – Google Ad Banner view delegate instance
+
+## Prebid Target header bindings
+
+### Example of usage
+
+```swift
+Targeting.shared.gdprConsentString = "A String"
+```
+
+### All available properties
+
+| **Variable**            | **Description**                                                                                                                                                                                                                   | **Required?**        |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| storeURL                | Stores URL for the mobile application. For example: [https://itunes.apple.com/us/app/your-app/id123456789](https://itunes.apple.com/us/app/your-app/id123456789)                                                                                                                        | ❗ Required           |
+| contentUrl              | This is the deep-link URL for the app screen that is displaying the ad. This can be an iOS universal link.                                                                                                                        | ❗ Highly Recommended |
+| publisherName           | App’s publisher’s name.                                                                                                                                                                                                           | ❗ Highly Recommended |
+| yearOfBirth             | For example: 1987                                                                                                                                                                                                                 | ❗ Highly Recommended |
+| coppa or subjectToCOPPA | Flag indicating if this request is subject to the COPPA regulations established by the USA FTC, where 0 = no, 1 = yes                                                                                                             | ❗ Highly Recommended |
+| userGender              | User’s gender (Male, Female, Other, Unknown). For example: .female                                                                                                                                                                | ❗ Highly Recommended |
+| userGenderDescription   | String representation of the user’s gender, where “M” = male, “F” = female, “O” = known to be other (i.e., omitted is unknown)                                                                                                    | Optional               |
+| userID                  | ID of the user within the app. For example: "24601"                                                                                                                                                                               | ❗ Highly Recommended |
+| buyerUID                | Buyer-specific ID for the user as mapped by the exchange for the buyer.                                                                                                                                                           | ❗ Highly Recommended |
+| keywords                | Comma separated list of keywords, interests, or intent                                                                                                                                                                            | Optional             |
+| userCustomData          | Optional feature to pass bidder the data that was set in the exchange’s cookie. The string must be in base85 cookie safe characters and be in any format. Proper JSON encoding must be used to include “escaped” quotation marks. | Optional             |
+| userExt                 | Placeholder for exchange-specific extensions to OpenRTB.                                                                                                                                                                          | Optional             |
+| domain                  | Retrieve and set the domain of your app                                                                                                                                                                                           | Optional             |
+| itunesID                | Retrieve and set the domain of your iTunes ID with the below command. This field will be transmitted to buyers as the bundle ID as recommended in OpenRTB 2.5. Failure to supply this value can have a negative monetary impact.  | Optional             |
