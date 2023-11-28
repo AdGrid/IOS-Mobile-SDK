@@ -10,9 +10,9 @@ Please follow the instructions below for integration of the SDK into your mobile
 
 1. **Add AdGridSDK reference to your project.**
     * Add our library
-      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.0.9
+      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.1.0
         * Required settings: Add the `-ObjC` option to `Other Linker Flags` in the `Build Settings` tab of the host project.
-      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.0.9'`
+      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.1.0'`
     * Update “Info.plist” file with GAM Account settings, add them before the last closed tag “dict”. You can get the GADApplication Identifier string from the App you create within your GAM account. For more information please check this link - [https://developers.google.com/admob/ios/quick-start#expandable-1](https://developers.google.com/admob/ios/quick-start#expandable-1)
 
 Example:
@@ -224,20 +224,23 @@ Example:
 1. **Initialize SDK**
 
 ```swift
-let adGridSdk = AdGridSdk(accountId: {value}, initialGADTestDeviceIds: {value})
+let adGridSdk = AdGridSdk(accountId: {value}, initialGADTestDeviceIds: {value}, amazonAppId: {value})
 ```
 
 > 1. accountId: String – Id of your account on AdGrid Server <font color=red>*(required)</font>
-		Example of value: **“adgrid_mobile_test_tagid”**
+Example of value: **“adgrid_mobile_test_tagid”**
 > 2. initialGADTestDeviceIds: List<String>? - List of test devices of Google Ad Manager SDK.
-		Example of value: **[ testdeviceID1, testdeviceID2 ]**
+Example of value: **[ testdeviceID1, testdeviceID2 ]**
+> 3. amazonAppId: String? - Amazon Ad application id
+Example of value: **123e4567-e89b-12d3-a456-426614174000**
 
-3. **Display Ad View**
+1. **Display Ad View**
 
 ```swift
 adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
   on:{value}, 
   adUnitId: {value}, 
+  amazonAdId: {value},
   prebidConfigId: {value}, 
   bannerView: {value}, 
   adSize: {value}, 
@@ -247,26 +250,28 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
   bannerViewDelegate: {value})
 ```
 
-> 1.  on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
-	Example of value: **self(UIViewController)**
-> 2.  adUnitId: String – Google Ad Manager ad ID <font color=red>*(required)</font>
-	Example of value: **“/92510019/adgrid_prebid”**
-> 3.  prebidConfigId: String – Id of stored impression on AdGrid Prebid Server <font color=red>*(required)</font>. Please reach out to [support@adgrid.io](mailto:support@adgrid.io) to receive your IDs.
-	Example of value: **“adgrid-io-amp-92510019-320-50”**
-> 4.  bannerView: UIView – Container view of Ad <font color=red>*(required)</font>
-	Example of value: **bannerView**
-> 5.  adSize: CGSize – Size of Ad <font color=red>*(required)</font>
-	Example of value: **CGSize(width: 320, height: 50)**
-> 6.  kvps: Dictionary<String, String>? – Some extra key value pairs
-	Example of value: **["key1":"value1", "key2":"value2"]**
-> 7.  adRefreshRateInMillis: Double – Ad refresh rate in milliseconds
-	Example of value: **30_000(30 sec)**
-> 8.  loadAdCompletion: (_ result: ResultCode) -> Void – Load prebid ad callback
-> 9.  bannerViewDelegate: GADBannerViewDelegate – Google Ad Banner view delegate instance
+> 1. on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
+Example of value: **self(UIViewController)**
+> 2. adUnitId: String – Google Ad Manager ad ID <font color=red>*(required)</font>
+Example of value: **“/92510019/adgrid_prebid”**
+> 3. prebidConfigId: String – Id of stored impression on AdGrid Prebid Server <font color=red>*(required)</font>. Please reach out to [support@adgrid.io](mailto:support@adgrid.io) to receive your IDs.
+Example of value: **“adgrid-io-amp-92510019-320-50”**
+> 4. bannerView: UIView – Container view of Ad <font color=red>*(required)</font>
+Example of value: **bannerView**
+> 5. adSize: CGSize – Size of Ad <font color=red>*(required)</font>
+Example of value: **CGSize(width: 320, height: 50)**
+> 6. kvps: Dictionary<String, String>? – Some extra key value pairs
+Example of value: **["key1":"value1", "key2":"value2"]**
+> 7. adRefreshRateInMillis: Double – Ad refresh rate in milliseconds
+Example of value: **30_000(30 sec)**
+> 8. loadAdCompletion: (_ result: ResultCode) -> Void – Load prebid ad callback
+> 9. bannerViewDelegate: GADBannerViewDelegate – Google Ad Banner view delegate instance
+> 10. amazonAdId: String? – Amazon Ad SDK ad ID
+Example of value: **“987e6543-e21b-23d1-c345-624563172890”**
 
 ## Prebid Target header bindings
 
-### ❗❗❗Important thing - Setup before call "displayAdView" method❗❗❗
+### ❗Important: You must setup these additional targeting variables anywhere before the displayAdView method
 
 ### Example of usage
 

@@ -26,8 +26,8 @@ let package = Package(
             dependencies: [
                 .target(name: "AdGridSDK"),
                 .target(name: "PrebidMobile"),
-                .target(name: "PrebidMobileAdMobAdapters"),
                 .target(name: "PrebidMobileGAMEventHandlers"),
+                .target(name: "AmazonPublisherServicesSDK"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 // .product(name: "Apollo", package: "apollo-ios"),
                 // .product(name: "ApolloAPI", package: "apollo-ios"),
@@ -40,9 +40,9 @@ let package = Package(
                       path: "Frameworks/AdGridSDK.xcframework"),
         .binaryTarget(name: "PrebidMobile",
                       path: "Frameworks/PrebidMobile.xcframework"),
-        .binaryTarget(name: "PrebidMobileAdMobAdapters",
-                      path: "Frameworks/PrebidMobileAdMobAdapters.xcframework"),
         .binaryTarget(name: "PrebidMobileGAMEventHandlers",
                       path: "Frameworks/PrebidMobileGAMEventHandlers.xcframework"),
+        .binaryTarget(name: "AmazonPublisherServicesSDK",
+                      path: "Frameworks/AmazonPublisherServicesSDK.xcframework"),
     ]
 )
