@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.source                = { :git => 'https://github.com/AdGrid/IOS-Mobile-SDK.git', :tag => "v#{s.version}" }
     s.vendored_frameworks   = 'Frameworks/AdGridSDK.xcframework', 
                               'Frameworks/PrebidMobile.xcframework', 
-                              'Frameworks/PrebidMobileGAMEventHandlers.xcframework'
+                              'Frameworks/PrebidMobileGAMEventHandlers.xcframework',
                               'Frameworks/AmazonPublisherServicesSDK.xcframework'
     s.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
     # s.dependency 'Apollo', '1.7.0'
