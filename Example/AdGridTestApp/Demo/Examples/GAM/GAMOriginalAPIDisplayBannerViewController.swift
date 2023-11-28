@@ -33,6 +33,7 @@ class GAMOriginalAPIDisplayBannerViewController: BannerBaseViewController {
         AppDelegate.adGridSdk?.googleAdManagerOriginalApiSupport.displayAdView(
             on: self,
             adUnitId: gamId,
+            amazonAdId: "wqeqweq",
             prebidConfigId: storeImpId,
             bannerView: bannerView,
             adSize: adSize,

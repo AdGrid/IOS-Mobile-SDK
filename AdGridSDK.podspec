@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
     s.author                = { 'AdGrid' => 'michael.tardif@adgrid.io' }
     s.homepage              = 'https://github.com/AdGrid/IOS-Mobile-SDK'
     s.source                = { :git => 'https://github.com/AdGrid/IOS-Mobile-SDK.git', :tag => "v#{s.version}" }
-    s.vendored_frameworks   = 'Frameworks/AdGridSDK.xcframework', 
+    s.vendored_frameworks   = 'Frameworks/AdGridSDK.xcframework',
                               'Frameworks/PrebidMobile.xcframework', 
-                              'Frameworks/PrebidMobileGAMEventHandlers.xcframework',
-                              'Frameworks/AmazonPublisherServicesSDK.xcframework'
+                              'Frameworks/PrebidMobileGAMEventHandlers.xcframework'
     s.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
+    s.dependency 'AmazonPublisherServicesSDK', '4.7.7'
     # s.dependency 'Apollo', '1.7.0'
     # s.dependency 'Apollo/Core', '1.7.0'
     # s.dependency 'Apollo/SQLite', '1.7.0'

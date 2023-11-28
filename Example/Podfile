@@ -6,8 +6,8 @@ target 'AdGridTestApp' do
   use_frameworks!
 
   # Pods for AdGridTestApp
-  # pod 'AdGridSDK', :git => 'https://github.com/AdGrid/IOS-Mobile-SDK.git', :tag => '1.0.8'
-  pod 'AdGridSDK', :path => '../'
+  pod 'AdGridSDK', :git => 'https://github.com/AdGrid/IOS-Mobile-SDK.git', :tag => '1.1.0'
+  # pod 'AdGridSDK', :path => '../'
 
 end
 

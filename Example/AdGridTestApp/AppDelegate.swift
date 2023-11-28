@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     public static var adGridSdk: AdGridSdk?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        AppDelegate.adGridSdk = AdGridSdk(accountId: prebidAccountId, initialGADTestDeviceIds: [ GADSimulatorID ])
+        AppDelegate.adGridSdk = AdGridSdk(accountId: prebidAccountId, initialGADTestDeviceIds: [ GADSimulatorID ], amazonAppId: "qeqweqe")
         return true
     }
 
