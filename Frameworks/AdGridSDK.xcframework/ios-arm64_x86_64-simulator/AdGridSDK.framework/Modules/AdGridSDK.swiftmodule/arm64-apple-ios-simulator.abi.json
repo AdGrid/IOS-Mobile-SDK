@@ -1821,14 +1821,14 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 3393,
+      "offset": 3316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/AdGridSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 3556,
+      "offset": 3479,
       "length": 4,
       "value": "1000"
     },
