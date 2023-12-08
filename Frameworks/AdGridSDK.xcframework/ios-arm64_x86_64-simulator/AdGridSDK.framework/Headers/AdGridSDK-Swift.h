@@ -327,9 +327,11 @@ SWIFT_CLASS("_TtC9AdGridSDK10AdGridView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class GADBannerView;
 
 SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
-@interface AdManagerSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate>
+@interface AdManagerSupport : NSObject <GADAdSizeDelegate, GADBannerViewDelegate, GADFullScreenContentDelegate>
+- (void)adView:(GADBannerView * _Nonnull)bannerView willChangeAdSizeTo:(GADAdSize)size;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -340,11 +342,10 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @end
 
 @class UIViewController;
-@class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId amazonAdId:(NSString * _Nullable)amazonAdId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion bannerViewDelegate:(id <GADBannerViewDelegate> _Nullable)bannerViewDelegate;
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId amazonAdId:(NSString * _Nullable)amazonAdId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion adSizeResolvedCallback:(void (^ _Nullable)(CGSize))adSizeResolvedCallback;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion adSizeResolvedCallback:(void (^ _Nullable)(CGSize))adSizeResolvedCallback;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end
@@ -689,9 +690,11 @@ SWIFT_CLASS("_TtC9AdGridSDK10AdGridView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class GADBannerView;
 
 SWIFT_CLASS("_TtC9AdGridSDK16AdManagerSupport")
-@interface AdManagerSupport : NSObject <GADBannerViewDelegate, GADFullScreenContentDelegate>
+@interface AdManagerSupport : NSObject <GADAdSizeDelegate, GADBannerViewDelegate, GADFullScreenContentDelegate>
+- (void)adView:(GADBannerView * _Nonnull)bannerView willChangeAdSizeTo:(GADAdSize)size;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -702,11 +705,10 @@ SWIFT_CLASS("_TtC9AdGridSDK27AdManagerOriginalApiSupport")
 @end
 
 @class UIViewController;
-@class GADBannerView;
 
 @interface AdManagerOriginalApiSupport (SWIFT_EXTENSION(AdGridSDK))
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId amazonAdId:(NSString * _Nullable)amazonAdId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion bannerViewDelegate:(id <GADBannerViewDelegate> _Nullable)bannerViewDelegate;
-- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController adUnitId:(NSString * _Nonnull)adUnitId amazonAdId:(NSString * _Nullable)amazonAdId prebidConfigId:(NSString * _Nonnull)prebidConfigId bannerView:(UIView * _Nonnull)bannerView adSize:(CGSize)adSize kvps:(NSDictionary<NSString *, NSString *> * _Nullable)kvps adRefreshRateInMillis:(double)adRefreshRateInMillis loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion adSizeResolvedCallback:(void (^ _Nullable)(CGSize))adSizeResolvedCallback;
+- (void)displayAdViewOn:(UIViewController * _Nonnull)viewController dataPosition:(NSString * _Nonnull)dataPosition bannerView:(UIView * _Nonnull)bannerView loadAdCompletion:(void (^ _Nullable)(enum ResultCode))loadAdCompletion adSizeResolvedCallback:(void (^ _Nullable)(CGSize))adSizeResolvedCallback;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 @end

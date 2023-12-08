@@ -48,6 +48,40 @@
         "printedName": "AdManagerSupport",
         "children": [
           {
+            "kind": "Function",
+            "name": "adView",
+            "printedName": "adView(_:willChangeAdSizeTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdSize",
+                "printedName": "GoogleMobileAds.GADAdSize",
+                "usr": "c:@S@GADAdSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdGridSDK@objc(cs)AdManagerSupport(im)adView:willChangeAdSizeTo:",
+            "mangledName": "$s9AdGridSDK0A14ManagerSupportC6adView_010willChangeA6SizeToySo09GADBannerG0C_So05GADAdJ0VtF",
+            "moduleName": "AdGridSDK",
+            "objc_name": "adView:willChangeAdSizeTo:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -1055,7 +1089,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adGridSdk:adFormat:adUnitId:amazonAdId:prebidConfigId:adSize:additionalSizes:kvps:adRefreshRateInMillis:)",
+            "printedName": "init(adGridSdk:adFormat:adUnitId:amazonAdId:prebidConfigId:adSize:additionalSizes:kvps:adRefreshRateInMillis:loadAdCompletion:adSizeResolvedCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1175,11 +1209,65 @@
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PrebidMobile.ResultCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrebidMobile.ResultCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResultCode",
+                        "printedName": "PrebidMobile.ResultCode",
+                        "usr": "c:@M@PrebidMobile@E@ResultCode"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdGridSDK0aB4ViewC02adB3Sdk0E6Format0E6UnitId06amazonaI0012prebidConfigI00E4Size15additionalSizes4kvps0E19RefreshRateInMillisAcA0abF0CSg_AA0aG0OS2SSgSSSo6CGSizeVSayATGSgSDyS2SGSgSdtKcfc",
-            "mangledName": "$s9AdGridSDK0aB4ViewC02adB3Sdk0E6Format0E6UnitId06amazonaI0012prebidConfigI00E4Size15additionalSizes4kvps0E19RefreshRateInMillisAcA0abF0CSg_AA0aG0OS2SSgSSSo6CGSizeVSayATGSgSDyS2SGSgSdtKcfc",
+            "usr": "s:9AdGridSDK0aB4ViewC02adB3Sdk0E6Format0E6UnitId06amazonaI0012prebidConfigI00E4Size15additionalSizes4kvps0E19RefreshRateInMillis04loadA10Completion0eM16ResolvedCallbackAcA0abF0CSg_AA0aG0OS2SSgSSSo6CGSizeVSayAVGSgSDyS2SGSgSdy12PrebidMobile10ResultCodeOcSgyAVcSgtKcfc",
+            "mangledName": "$s9AdGridSDK0aB4ViewC02adB3Sdk0E6Format0E6UnitId06amazonaI0012prebidConfigI00E4Size15additionalSizes4kvps0E19RefreshRateInMillis04loadA10Completion0eM16ResolvedCallbackAcA0abF0CSg_AA0aG0OS2SSgSSSo6CGSizeVSayAVGSgSDyS2SGSgSdy12PrebidMobile10ResultCodeOcSgyAVcSgtKcfc",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Custom",
@@ -1397,7 +1485,7 @@
           {
             "kind": "Function",
             "name": "displayAdView",
-            "printedName": "displayAdView(on:adUnitId:amazonAdId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:loadAdCompletion:bannerViewDelegate:)",
+            "printedName": "displayAdView(on:adUnitId:amazonAdId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:loadAdCompletion:adSizeResolvedCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1515,13 +1603,25 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "GoogleMobileAds.GADBannerViewDelegate?",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "GADBannerViewDelegate",
-                    "printedName": "GoogleMobileAds.GADBannerViewDelegate",
-                    "usr": "c:objc(pl)GADBannerViewDelegate"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1529,8 +1629,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:amazonAdId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:loadAdCompletion:bannerViewDelegate:",
-            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId06amazonaM0012prebidConfigM006bannerI00K4Size4kvps0K19RefreshRateInMillis04loadA10Completion0qI8DelegateySo16UIViewControllerC_S2SSgSSSo6UIViewCSo6CGSizeVSDyS2SGSgSdy12PrebidMobile10ResultCodeOcSgSo09GADBanneriZ0_pSgtF",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:adUnitId:amazonAdId:prebidConfigId:bannerView:adSize:kvps:adRefreshRateInMillis:loadAdCompletion:adSizeResolvedCallback:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on8adUnitId06amazonaM0012prebidConfigM006bannerI00K4Size4kvps0K19RefreshRateInMillis04loadA10Completion0kR16ResolvedCallbackySo16UIViewControllerC_S2SSgSSSo6UIViewCSo6CGSizeVSDyS2SGSgSdy12PrebidMobile10ResultCodeOcSgyAUcSgtF",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Dynamic",
@@ -1543,7 +1643,7 @@
           {
             "kind": "Function",
             "name": "displayAdView",
-            "printedName": "displayAdView(on:dataPosition:bannerView:)",
+            "printedName": "displayAdView(on:dataPosition:bannerView:loadAdCompletion:adSizeResolvedCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1567,11 +1667,65 @@
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PrebidMobile.ResultCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrebidMobile.ResultCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResultCode",
+                        "printedName": "PrebidMobile.ResultCode",
+                        "usr": "c:@M@PrebidMobile@E@ResultCode"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGSize) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:dataPosition:bannerView:",
-            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on12dataPosition06bannerI0ySo16UIViewControllerC_SSSo0N0CtF",
+            "usr": "c:@CM@AdGridSDK@objc(cs)AdManagerOriginalApiSupport(im)displayAdViewOn:dataPosition:bannerView:loadAdCompletion:adSizeResolvedCallback:",
+            "mangledName": "$s9AdGridSDK0A25ManagerOriginalApiSupportC07displayA4View2on12dataPosition06bannerI004loadA10Completion22adSizeResolvedCallbackySo16UIViewControllerC_SSSo0T0Cy12PrebidMobile10ResultCodeOcSgySo6CGSizeVcSgtF",
             "moduleName": "AdGridSDK",
             "declAttributes": [
               "Dynamic",
@@ -1751,14 +1905,14 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/AdManagerSupport.swift",
       "kind": "BooleanLiteral",
-      "offset": 363,
+      "offset": 503,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/AdManagerSupport.swift",
       "kind": "BooleanLiteral",
-      "offset": 565,
+      "offset": 705,
       "length": 4,
       "value": "true"
     },
@@ -1856,63 +2010,63 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "Dictionary",
-      "offset": 1593,
+      "offset": 1724,
       "length": 23,
       "value": "[(\"platform\", \"mobile\")]"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 2056,
       "length": 19,
       "value": "\"mobile_ip_address\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2075,
+      "offset": 2206,
       "length": 50,
       "value": "\"Prebid demand fetch for GAM \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2124,
+      "offset": 2255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3398,
+      "offset": 3651,
       "length": 21,
       "value": "\"Not implemented yet\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 4663,
       "length": 68,
       "value": "\"Error occuring during searching for Prebid creative size: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4254,
+      "offset": 4730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 4869,
       "length": 49,
       "value": "\"GAM did fail to receive ad with error: \""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Google\/AdManager\/OriginalAPI\/AdManagerOriginalApiSupport+BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
+      "offset": 4917,
       "length": 2,
       "value": "\"\""
     },
@@ -1933,105 +2087,105 @@
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 914,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 989,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 916,
+      "offset": 1052,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1384,
+      "offset": 1520,
       "length": 6,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
+      "offset": 1915,
       "length": 21,
       "value": "\"io.adgrid.adgridsdk\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1686,
+      "offset": 1944,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1959,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 1710,
+      "offset": 1968,
       "length": 39,
       "value": "\"AdGridSdk should be initilized before\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 2333,
+      "offset": 2701,
       "length": 21,
       "value": "\"io.adgrid.adgridsdk\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2362,
+      "offset": 2730,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 2377,
+      "offset": 2745,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 2386,
+      "offset": 2754,
       "length": 39,
       "value": "\"AdGridSdk should be initilized before\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 2509,
+      "offset": 2877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "StringLiteral",
-      "offset": 2542,
+      "offset": 2910,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vitaliioverchuk\/Desktop\/Projects\/UpWork\/adgrid.mobile.sdk\/ios\/AdGridSDK\/AdGridSDK\/Views\/AdGridView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2830,
+      "offset": 3198,
       "length": 4,
       "value": "true"
     },

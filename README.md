@@ -10,9 +10,9 @@ Please follow the instructions below for integration of the SDK into your mobile
 
 1. **Add AdGridSDK reference to your project.**
     * Add our library
-      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.1.0
+      * Add via Swift Package Manager. [https://github.com/AdGrid/IOS-Mobile-SDK](https://github.com/AdGrid/Mobile-SDK), current major version is 1.1.1
         * Required settings: Add the `-ObjC` option to `Other Linker Flags` in the `Build Settings` tab of the host project.
-      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.1.0'`
+      * Add via Cocoapods. Add into your `Podfile` following line `pod 'AdGridSDK', :git => '<https://github.com/AdGrid/IOS-Mobile-SDK>', :tag => '1.1.1'`
     * Update “Info.plist” file with GAM Account settings, add them before the last closed tag “dict”. You can get the GADApplication Identifier string from the App you create within your GAM account. For more information please check this link - [https://developers.google.com/admob/ios/quick-start#expandable-1](https://developers.google.com/admob/ios/quick-start#expandable-1)
 
 Example:
@@ -247,7 +247,7 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
   kvps: {value}, 
   adRefreshRateInMillis: {value}, 
   loadAdCompletion: {value}, 
-  bannerViewDelegate: {value})
+  adSizeResolvedCallback: {value})
 ```
 
 > 1. on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
@@ -265,7 +265,7 @@ Example of value: **["key1":"value1", "key2":"value2"]**
 > 7. adRefreshRateInMillis: Double – Ad refresh rate in milliseconds
 Example of value: **30_000(30 sec)**
 > 8. loadAdCompletion: (_ result: ResultCode) -> Void – Load prebid ad callback
-> 9. bannerViewDelegate: GADBannerViewDelegate – Google Ad Banner view delegate instance
+> 9. adSizeResolvedCallback: (CGSize) -> Void – Ad size changed callback
 > 10. amazonAdId: String? – Amazon Ad SDK ad ID
 Example of value: **“987e6543-e21b-23d1-c345-624563172890”**
 
