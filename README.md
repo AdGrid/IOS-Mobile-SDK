@@ -247,7 +247,8 @@ adGridSdk.googleAdManagerOriginalApiSupport.displayAdView(
   kvps: {value}, 
   adRefreshRateInMillis: {value}, 
   loadAdCompletion: {value}, 
-  adSizeResolvedCallback: {value})
+  adSizeResolvedCallback: {value},
+  nativeAdLoadingHandler: {value})
 ```
 
 > 1. on: UIViewControler – View controller where you will show your ad <font color=red>*(required)</font>
@@ -268,6 +269,7 @@ Example of value: **30_000(30 sec)**
 > 9. adSizeResolvedCallback: (CGSize) -> Void – Ad size changed callback
 > 10. amazonAdId: String? – Amazon Ad SDK ad ID
 Example of value: **“987e6543-e21b-23d1-c345-624563172890”**
+> 11. nativeAdLoadingHandler: NativeAdLoadingHandler – Native ad loading handler
 
 ## Prebid Target header bindings
 

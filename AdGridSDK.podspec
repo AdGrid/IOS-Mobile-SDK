@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.swift_version         = '5.0'
     s.summary               = 'Provides an opportunity for show ad via AdGrid.'
     s.requires_arc          = true
-    s.version               = '1.1.1'
+    s.version               = '1.1.2'
     s.license               = { :type => 'GPL 3.0', :file => 'LICENSE.md' }
     s.author                = { 'AdGrid' => 'michael.tardif@adgrid.io' }
     s.homepage              = 'https://github.com/AdGrid/IOS-Mobile-SDK'

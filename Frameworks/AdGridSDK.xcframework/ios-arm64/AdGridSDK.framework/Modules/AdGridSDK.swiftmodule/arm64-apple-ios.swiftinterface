@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdGridSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdGridSDK
 @_exported import AdGridSDK
 import DTBiOSSDK
 import Foundation
@@ -13,8 +12,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_hasMissingDesignatedInitializers @objcMembers public class AdManagerSupport : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate, GoogleMobileAds.GADFullScreenContentDelegate, GoogleMobileAds.GADAdSizeDelegate {
-  @objc public func adView(_ bannerView: GoogleMobileAds.GADBannerView, willChangeAdSizeTo size: GoogleMobileAds.GADAdSize)
+@objc @_hasMissingDesignatedInitializers @objcMembers public class AdManagerSupport : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate, GoogleMobileAds.GADFullScreenContentDelegate {
   @objc deinit
 }
 @objc @objcMembers public class AdGridSdk : ObjectiveC.NSObject {
@@ -42,22 +40,29 @@ public enum AdFormat : Swift.CustomStringConvertible, Swift.CaseIterable {
   }
 }
 extension AdGridSDK.AdManagerOriginalApiSupport {
-  @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, amazonAdId: Swift.String? = nil, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, kvps: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000, loadAdCompletion: AdGridSDK.LoadAdCompletionCallback? = nil, adSizeResolvedCallback: AdGridSDK.AdSizeResolvedCallback? = nil)
+  public func displayAdView(on viewController: UIKit.UIViewController, adUnitId: Swift.String, amazonAdId: Swift.String? = nil, prebidConfigId: Swift.String, bannerView: UIKit.UIView, adSize: CoreFoundation.CGSize, kvps: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30000, loadAdCompletion: AdGridSDK.LoadAdCompletionCallback? = nil, adSizeResolvedCallback: AdGridSDK.AdSizeResolvedCallback? = nil, onAdReadyToShowCallback: AdGridSDK.OnAdReadyToShowCallback? = nil, nativeAdLoadingHandler: (any AdGridSDK.NativeAdLoadingHandler)? = nil) -> PrebidMobile.BannerAdUnit
   @objc dynamic public func displayAdView(on viewController: UIKit.UIViewController, dataPosition: Swift.String, bannerView: UIKit.UIView, loadAdCompletion: AdGridSDK.LoadAdCompletionCallback? = nil, adSizeResolvedCallback: AdGridSDK.AdSizeResolvedCallback? = nil)
   @objc dynamic public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc dynamic public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
 }
-@objc @_Concurrency.MainActor(unsafe) public class AdGridView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public init(adGridSdk: AdGridSDK.AdGridSdk?, adFormat: AdGridSDK.AdFormat = AdFormat.displayBanner, adUnitId: Swift.String, amazonAdId: Swift.String? = nil, prebidConfigId: Swift.String, adSize: CoreFoundation.CGSize, additionalSizes: [CoreFoundation.CGSize]? = nil, kvps: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30_000, loadAdCompletion: AdGridSDK.LoadAdCompletionCallback? = nil, adSizeResolvedCallback: AdGridSDK.AdSizeResolvedCallback? = nil) throws
-  @_Concurrency.MainActor(unsafe) public init(dataPosition: Swift.String) throws
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AdGridView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func configureAd(adUnitId: Swift.String, amazonAdId: Swift.String? = nil, prebidConfigId: Swift.String, adSize: CoreFoundation.CGSize, additionalSizes: [CoreFoundation.CGSize]? = nil, kvps: Swift.Dictionary<Swift.String, Swift.String>? = nil, adRefreshRateInMillis: Swift.Double = 30000, loadAdCompletion: AdGridSDK.LoadAdCompletionCallback? = nil, adSizeResolvedCallback: AdGridSDK.AdSizeResolvedCallback? = nil, isLazyAdLoadingEnabled: Swift.Bool = false, adGridSdk: AdGridSDK.AdGridSdk? = nil, adFormat: AdGridSDK.AdFormat = .displayBanner)
+  @_Concurrency.MainActor(unsafe) public func configureAd(dataPosition: Swift.String, adGridSdk: AdGridSDK.AdGridSdk?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public typealias LoadAdCompletionCallback = (_ result: PrebidMobile.ResultCode) -> Swift.Void
 public typealias AdSizeResolvedCallback = (CoreFoundation.CGSize) -> Swift.Void
+public typealias OnAdReadyToShowCallback = (GoogleMobileAds.GAMBannerView, GoogleMobileAds.GAMRequest) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class AdManagerOriginalApiSupport : AdGridSDK.AdManagerSupport {
   @objc deinit
+}
+public protocol NativeAdLoadingHandler {
+  func onAdReceived()
+  func onAdLoadingError(errorMessage: Swift.String)
 }
 extension AdGridSDK.AdFormat : Swift.Equatable {}
 extension AdGridSDK.AdFormat : Swift.Hashable {}
